@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/effect_style_bottom_control_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.camera.common.view.StrokeTextView android:textSize="@dimen/effect_style_slide_hint_font_size" android:textColor="@color/White" android:layout_gravity="center_horizontal" android:id="@id/effect_style_filter_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/effect_style_filter_name_hint_margin_bottom" />
+    <com.oplus.camera.feature.filter.view.EffectStylePageIndicator android:layout_gravity="center_horizontal" android:id="@id/effect_style_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@android:color/transparent" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/three_flash_text_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.oplus.camera.inverse.InverseMarqueeTextView android:textSize="13.0sp" android:textColor="@color/black" android:id="@id/color_level_text" android:background="@drawable/three_flash_tab_background" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/camera_three_flash_color_temper" android:paddingStart="6.0dp" android:paddingEnd="6.0dp" android:layout_marginEnd="6.0dp" />
+        <com.oplus.camera.inverse.InverseMarqueeTextView android:textSize="13.0sp" android:textColor="@color/white" android:id="@id/brightness_text" android:background="@drawable/three_flash_tab_background" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/camera_three_flash_brightness" android:paddingStart="6.0dp" android:paddingEnd="6.0dp" android:layout_marginStart="6.0dp" />
+    </LinearLayout>
+</RelativeLayout>

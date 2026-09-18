@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="zoom_arc_seekbar_focus_circle_center_y">56.0dp</dimen>
+</resources>

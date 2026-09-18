@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ai_preset_menu" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:gravity="center" android:id="@id/ai_preset_menu_hint_view" android:layout_width="wrap_content" android:layout_height="@dimen/face_beauty_custom_menu_hint_height" android:layout_marginBottom="@dimen/ai_scene_preset_menu_hint_margin_bottom" android:text="@string/ai_scene_preset_menu_toast" android:layout_above="@id/ai_preset_menu_recycle_view" android:layout_centerHorizontal="true" android:elegantTextHeight="false" style="@style/ScreenHintStyle" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/ai_preset_menu_recycle_view" android:paddingLeft="@dimen/ai_enhancement_padding_left" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

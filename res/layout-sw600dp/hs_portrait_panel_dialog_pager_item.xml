@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/pager_item_card_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dp" android:layout_marginBottom="1.0dp" android:layout_centerHorizontal="true" android:layout_marginStart="1.0dp" android:layout_marginEnd="1.0dp" android:elevation="0.0dp" app:cardBackgroundColor="@android:color/transparent" app:cardCornerRadius="@dimen/common_bottom_guide_background_radius" app:cardElevation="0.0dp">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/pager_item_im" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/common_guide_big_margin" android:layout_marginRight="@dimen/common_guide_big_margin" />
+    </androidx.cardview.widget.CardView>
+    <ImageView android:id="@id/guids_title_im" android:clickable="true" android:layout_width="match_parent" android:layout_height="26.0dp" android:layout_marginTop="22.579987dp" android:src="@drawable/hasselblad" android:layout_below="@id/pager_item_card_view" android:layout_centerHorizontal="true" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center|top" android:orientation="horizontal" android:id="@id/guide_tips_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_guide_small_margin" android:layout_below="@id/guids_title_im" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatTextView android:gravity="center_horizontal" android:id="@id/guide_tips_tv" android:minLines="2" android:lineSpacingExtra="@dimen/common_bottom_guide_tips_text_line_spacing" android:textDirection="locale" android:accessibilityTraversalBefore="@id/guids_title_im" style="@style/GuideMessageStyle" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</RelativeLayout>

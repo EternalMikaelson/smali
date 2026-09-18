@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/guide_layout" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="150.0dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/guide_tips_container" android:layout_width="283.0dp" android:layout_height="160.0dp" android:layout_alignTop="@id/bottom_guide_effective_view" android:layout_marginStart="24.0dp" android:layout_toEndOf="@id/bottom_guide_effective_view">
+            <com.oplus.camera.widget.GuideTextView android:textSize="@dimen/common_bottom_guide_title_text_size" android:textStyle="bold" android:textColor="@color/full_page_guide_text_color_white" android:id="@id/guide_tips_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.85" android:textDirection="locale" />
+            <com.oplus.camera.widget.GuideTextView android:textSize="@dimen/common_bottom_guide_description_text_size" android:textColor="@color/full_page_guide_text_color_white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/bottom_guide_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_bottom_guide_description_top_margin" android:lineSpacingExtra="@dimen/common_bottom_guide_tips_text_line_spacing" android:alpha="0.55" android:layout_marginStart="@dimen/common_bottom_guide_margin_horizontal" android:layout_marginEnd="@dimen/common_bottom_guide_margin_horizontal" />
+        </LinearLayout>
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/bottom_guide_effective_view" android:layout_width="160.0dp" android:layout_height="160.0dp" android:layout_marginTop="18.0dp" android:layout_marginStart="24.0dp" android:forceDarkAllowed="false" app:anim_autoPlay="true" app:anim_loop="true" />
+    </RelativeLayout>
+    <com.oplus.camera.widget.AnimationButton android:textSize="@dimen/page_guide_button_ok_size" android:textStyle="bold" android:id="@id/guide_button_ok" android:layout_marginBottom="@dimen/page_guide_button_ok_margin_bottom_land" app:animEnable="true" app:brightness="0.85" style="@style/GuideOKButton" />
+</RelativeLayout>

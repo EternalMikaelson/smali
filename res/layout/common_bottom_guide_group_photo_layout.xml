@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/guide_root" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:id="@id/group_photo_des_item" android:background="@drawable/group_photo_guide_img" android:layout_width="match_parent" android:layout_height="@dimen/common_bottom_guide_common_image_height" android:layout_marginLeft="@dimen/group_mode_guide_img__margin_left" android:layout_marginTop="@dimen/group_mode_guide_img__margin_top" android:layout_marginRight="@dimen/group_mode_guide_img__margin_right" />
+    <androidx.appcompat.widget.AppCompatTextView android:layout_gravity="center_horizontal" android:id="@id/group_photo_des_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/group_mode_guide_title_margin_top" android:text="@string/camera_mode_guide_group_photo" style="@style/GuideTitleStyle" />
+    <com.coui.appcompat.statement.COUIMaxHeightScrollView android:scrollbars="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_guide_small_margin" android:requiresFadingEdge="vertical">
+        <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/bottom_guide_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/group_photo_guide_content_description" style="@style/GuideMessageStyle" />
+    </com.coui.appcompat.statement.COUIMaxHeightScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

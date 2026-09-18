@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="enter_floating_win_btn_margin_bottom">347.0dp</dimen>
+    <dimen name="long_exposure_effect_menu_margin_top_common_0_screen">496.0dp</dimen>
+    <dimen name="long_exposure_effect_menu_title_margin_top_common_0_screen">594.3281dp</dimen>
+    <dimen name="long_exposure_exposure_time_margin_top_common_0_screen">411.32812dp</dimen>
+    <dimen name="mode_picker_view_offset_a">1.0dp</dimen>
+    <dimen name="values_h">2760.0px</dimen>
+    <dimen name="values_sw">359.0px</dimen>
+    <dimen name="values_w">1256.0px</dimen>
+</resources>

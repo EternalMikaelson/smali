@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:key="camera_setting_advance_root_preference"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:camera="http://schemas.android.com/apk/res-auto" xmlns:oplusos="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/color_preference_header" android:selectable="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/camera_permission_name_location" android:key="pref_location_information_category" oplusos:isFirstCategory="true">
+        <com.coui.appcompat.preference.COUIJumpPreference android:persistent="false" android:title="@string/person_info_list_content" android:selectable="true" android:key="pref_geographical_location_key" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/situation_collection" android:key="pref_geographical_location_collection_category" android:widgetLayout="@layout/coui_preference_category_widget_layout_textwithicon" oplusos:icon_in_right="@drawable/arrow_drop_down" oplusos:isFirstCategory="true" oplusos:text_in_right="@string/Last_seven_days">
+        <com.coui.appcompat.preference.COUIPreference android:persistent="false" android:title="@string/purpose_of_use" android:key="pref_location_purpose_key" android:summary="@string/purpose_of_use_summary" />
+        <com.coui.appcompat.preference.COUIPreference android:persistent="false" android:title="@string/usage_cenarios" android:key="pref_geographical_location_scene_key" android:summary="@string/usage_cenarios_summary" />
+        <com.coui.appcompat.preference.COUIPreference android:persistent="false" android:title="@string/collection_status" android:key="pref_location_status_key" android:summary="@string/collection_status_summary" />
+        <com.coui.appcompat.preference.COUIPreference android:persistent="false" android:title="@string/information_content" android:key="pref_geolocation_content_key" android:summary="@string/information_content_summary" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <Preference android:layout="@layout/pref_geographical_bottom_line" android:selectable="false" android:key="pref_geographical_bottom_line" />
+    <com.oplus.camera.ui.menu.CameraFooterPreference android:selectable="false" android:key="pref_geographical_location_annotation_key" android:summary="@string/location_information_prompts" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_composition_assist_function_category" oplusos:isFirstCategory="true">
+        <com.coui.appcompat.preference.COUIMenuPreference android:persistent="true" android:entries="@array/camera_setting_reference_line_names" android:title="@string/camera_setting_reference_line" android:selectable="true" android:key="pref_camera_reference_line" android:defaultValue="@string/camera_setting_default_value" android:dialogTitle="@string/camera_setting_reference_line" android:entryValues="@array/camera_setting_reference_line_values" />
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_setting_gradienter" android:key="pref_assist_gradienter" android:defaultValue="false" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_quick_launch_v2_function_category" oplusos:isFirstCategory="true">
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_setting_quick_launch_tittle" android:key="pref_is_opened_camera_quick_launch_v2_key" android:summary="@string/camera_quick_launch_summary" android:defaultValue="false" />
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_setting_quick_launch_and_capture_tittle" android:key="pref_camera_quick_launch_is_default_capture_v2_key" android:defaultValue="true" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_preserve_settings_function" oplusos:isFirstCategory="true">
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_setting_preserve_settings_capture_mode" android:key="pref_preserve_capture_mode_key" android:summary="@string/camera_setting_preserve_settings_capture_mode_summary" android:defaultValue="false" />
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_setting_preserve_settings_style" android:key="pref_preserve_style_key" android:summary="@string/camera_setting_preserve_settings_style_summary" android:defaultValue="false" />
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_setting_preserve_settings_effects" android:key="pref_preserve_effects_key" android:summary="@string/camera_setting_preserve_settings_effects_summary_v2" android:defaultValue="true" />
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_setting_preserve_settings_global_ev" android:key="pref_preserve_global_ev_key" android:summary="@string/camera_setting_preserve_settings_gloabl_ev_summary" android:defaultValue="true" />
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_setting_preserve_settings_auto_macro" android:key="pref_preserve_auto_macro_key" android:summary="@string/camera_setting_preserve_settings_auto_macro_summary" android:defaultValue="false" />
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_live_photo" android:key="pref_preserve_livephoto_key" android:summary="@string/camera_setting_preserve_settings_livephoto_summary" android:defaultValue="true" />
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_setting_preserve_settings_tele_sdsr_v2" android:key="pref_preserve_aihd_sdsr_key" android:summary="@string/camera_setting_preserve_settings_tele_sdsr_summary_v2" android:defaultValue="true" />
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_setting_preserve_settings_portrait_zoom" android:key="pref_preserve_portrait_zoom_key" android:summary="@string/camera_setting_preserve_settings_portrait_zoom_summary" android:defaultValue="false" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/camera_setting_preserve_settings_pro_mode" android:key="pref_preserve_settings_pro_function" oplusos:isFirstCategory="true">
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_pro_preserve" android:key="pref_preserve_pro_mode_key" android:summary="@string/camera_setting_preserve_settings_pro_mode_summary" android:defaultValue="true" />
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_stting_preserve_settings_lux_priority" android:key="pref_preserve_lux_priority_key" android:summary="@string/camera_stting_preserve_settings_lux_priority_summary" android:defaultValue="false" />
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_setting_preserve_settings_photo_format" android:key="pref_preserve_master_mode_photo_format_key" android:summary="@string/camera_setting_preserve_settings_photo_format_summary" android:defaultValue="false" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory />
+    <com.oplus.camera.ui.menu.CameraFooterPreference android:selectable="false" android:key="pref_preserve_footer_key" android:summary="@string/camera_setting_preserve_settings_footer_des" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_shutter_setting_function_guide" oplusos:top_margin_type="none">
+        <com.oplus.camera.ui.menu.CameraShutterSettingPreference android:layout="@layout/multiple_page_gesture_guide" android:selectable="false" android:key="pref_shutter_setting_guide_key" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_shutter_setting_function" oplusos:isFirstCategory="true">
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_tap_shutter_title" android:key="pref_camera_tap_shutter_key" android:defaultValue="false" />
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_gesture_shutter_title" android:key="pref_camera_gesture_shutter_key" android:defaultValue="false" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_self_setting_function" oplusos:isFirstCategory="true">
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_selfie_mirror_title" android:key="pref_mirror_key" android:summary="@string/camera_mirror_setting_summary" android:defaultValue="@string/camera_mirror_default_value" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_lens_dirty_detection_function" oplusos:isFirstCategory="false">
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_setting_dirty_lens_notice" android:key="pref_lens_dirty_detection_key" android:defaultValue="true" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_other_setting_function" oplusos:isFirstCategory="false">
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/camera_codec_title" android:key="pref_camera_code_key" />
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_setting_camera_quick_launch_tittle" android:key="pref_camera_quick_launch_key" android:summary="@string/camera_interest_screen_snapshot_tip" android:defaultValue="false" />
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/quick_share_and_edit" android:key="pref_share_and_edit_key" android:summary="@string/quick_share_and_edit_tips" android:defaultValue="true" />
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_storage_target_sdcard" android:key="pref_camera_storage_key" android:defaultValue="false" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_hasselblad_watermark_preview_key_category" oplusos:isFirstCategory="true">
+        <com.oplus.camera.ui.menu.CameraWatermarkVisualPreference android:layout="@layout/camera_frame_watermark_visual_layout" android:selectable="false" android:key="pref_hasselblad_watermark_preview_key" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_hasselblad_watermark_function_category">
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_setting_watermark_frame" android:key="pref_hasselblad_watermark_function_key" android:defaultValue="@string/camera_slogan_default_value" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_festival_watermark_switches_category">
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_watermark_festival_name" android:key="pref_festival_watermark_function_key" android:defaultValue="@string/camera_slogan_default_value" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_festival_watermark_setting_category">
+        <com.coui.appcompat.preference.COUIPreference android:persistent="false" android:title="@string/camera_setting_watermark_custom_info_title" android:key="pref_festival_watermark_custom_info_key" android:iconSpaceReserved="false" oplusos:defaultValue="@string/camera_setting_slogan_name_default" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_festival_watermark_festival_colors_category">
+        <com.oplus.camera.ui.menu.CameraWaterMarkFestivalColorsPreference android:layout="@layout/festival_color_style_layout" android:title="@string/camera_watermark_festival_style_title" android:key="pref_festival_watermark_colors_key" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_watermark_visual_color_category" oplusos:isFirstCategory="true">
+        <com.coui.appcompat.preference.COUIMenuPreference android:entries="@array/camera_setting_color_watermark_border_color_names" android:title="@string/camera_color_watermark_border_color" android:key="pref_watermark_border_color_key" android:dialogTitle="@string/camera_color_watermark_border_color" android:entryValues="@array/camera_setting_color_watermark_border_color_values" oplusos:defaultValue="@string/camera_slogan_border_color_default_value" />
+        <com.oplus.camera.ui.menu.CameraCheckBoxPreference android:title="@string/camera_color_watermark_color_extraction" android:key="pref_watermark_color_extraction_function_key" android:summary="@string/camera_color_watermark_color_extraction_des" android:defaultValue="true" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_watermark_visual_hasselblad" oplusos:isFirstCategory="true">
+        <com.oplus.camera.ui.menu.CameraCheckBoxPreference android:title="@string/camera_setting_hassleblad_watermark_info_option_shotinfo" android:key="pref_hasselblad_watermark_shot_info" android:defaultValue="true" />
+        <com.oplus.camera.ui.menu.CameraCheckBoxPreference android:title="@string/camera_setting_watermark_info_option_date_and_time" android:key="pref_hasselblad_watermark_date_and_time" android:defaultValue="true" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.oplus.camera.ui.menu.CameraFooterPreference android:selectable="false" android:key="pre_hasselblad_watermark_footer" android:summary="@string/camera_frame_watermark_setting_des_str" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_watermark_visual_common_watermark_preview" oplusos:isFirstCategory="true">
+        <com.oplus.camera.ui.menu.CameraWatermarkVisualPreference android:layout="@layout/camera_watermark_visual_layout" android:selectable="false" android:key="pref_watermark_preview_key" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_watermark_visual_common_watermark">
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_setting_water_mark_common" android:key="pref_watermark_function_key" android:defaultValue="@string/camera_slogan_default_value" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_watermark_visual_add_mark_to">
+        <com.coui.appcompat.preference.COUIMenuPreference android:entries="@array/camera_setting_watermark_apply_scope_names" android:title="@string/camera_setting_watermark_apply_scope" android:key="pref_watermark_apply_scope_key" android:dialogTitle="@string/camera_setting_watermark_apply_scope" android:entryValues="@array/camera_setting_watermark_apply_scope_values" oplusos:defaultValue="@string/camera_setting_watermark_apply_scope_all" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_watermark_visual_category" oplusos:isFirstCategory="true">
+        <com.oplus.camera.ui.menu.CameraCheckBoxPreference android:title="@string/camera_slogan_hasselblad" android:key="pref_watermark_phone" android:defaultValue="true" />
+        <com.oplus.camera.ui.menu.CameraCheckBoxPreference android:title="@string/camera_setting_watermark_info_option_location" android:key="pref_watermark_location" android:defaultValue="false" />
+        <com.oplus.camera.ui.menu.CameraCheckBoxPreference android:title="@string/camera_setting_watermark_info_option_date_and_time" android:key="pref_watermark_date_and_time" android:defaultValue="false" />
+        <com.coui.appcompat.preference.COUIPreference android:persistent="false" android:title="@string/camera_setting_watermark_custom_info_title" android:key="pref_watermark_author_key" android:iconSpaceReserved="false" oplusos:defaultValue="@string/camera_setting_slogan_name_default" />
+        <com.coui.appcompat.preference.COUIMultiSelectListPreference android:entries="@array/camera_setting_watermark_display_info_option" android:title="@string/camera_setting_watermark_display_info_title" android:key="pref_watermark_display_info_key" android:defaultValue="@array/camera_setting_watermark_display_info_values" android:entryValues="@array/camera_setting_watermark_display_info_values" oplusos:isPreferenceVisible="false" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_watermark_visual_category_position_font" oplusos:isFirstCategory="true">
+        <com.coui.appcompat.preference.COUIMenuPreference android:entries="@array/camera_setting_watermark_size_names" android:title="@string/camera_setting_watermark_font_size_title" android:key="pref_watermark_size_key" android:dialogTitle="@string/camera_setting_watermark_font_size_title" android:entryValues="@array/camera_setting_watermark_size_values" oplusos:defaultValue="@string/camera_setting_watermark_medium_size_default" />
+        <com.coui.appcompat.preference.COUIMenuPreference android:entries="@array/camera_setting_watermark_position_names" android:title="@string/camera_setting_watermark_position_title" android:key="pref_watermark_position_key" android:dialogTitle="@string/camera_setting_watermark_position_title" android:entryValues="@array/camera_setting_watermark_position_values" oplusos:defaultValue="@string/camera_setting_watermark_location_names_bottom_left_corner" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_watermark_visual_makeup_category" oplusos:isFirstCategory="false">
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_beauty_makeup_watermark_setting_title" android:key="pref_watermark_makeup_function_key" android:summary="@string/camera_beauty_makeup_watermark_setting_des" android:defaultValue="@string/camera_slogan_default_value" />
+        <com.oplus.camera.ui.menu.CameraWatermarkVisualPreference android:layout="@layout/camera_watermark_makeup_visual_layout" android:selectable="false" android:key="pref_watermark_makeup_preview_key" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_video_sound_function" oplusos:isFirstCategory="true">
+        <com.coui.appcompat.preference.COUIMarkPreference android:title="@string/camera_video_normal_sound" android:key="pref_video_sound_normal_key" oplusos:defaultValue="@string/camera_slogan_default_value" />
+        <com.coui.appcompat.preference.COUIMarkPreference android:title="@string/camera_video_panorama_sound" android:key="pref_video_sound_panorama_key" android:summary="@string/camera_video_panorama_sound_description" oplusos:defaultValue="@string/camera_setting_mode_on" />
+        <com.coui.appcompat.preference.COUIMarkPreference android:title="@string/camera_video_focusing_sound" android:key="pref_video_sound_focusing_key" android:summary="@string/camera_video_focusing_sound_description" oplusos:defaultValue="@string/camera_slogan_default_value" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_video_sound_noise_function">
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_video_dewind_noise_title" android:key="pref_video_noise_filter_key" android:defaultValue="true" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_about_setting_function" oplusos:isFirstCategory="true">
+        <com.oplus.camera.ui.menu.CameraSubSettingAboutIconPreference android:layout="@layout/camera_sub_setting_about_icon_layout" android:selectable="false" android:key="pref_camera_sub_setting_about_icon_key" />
+        <Preference android:layout="@layout/camera_sub_setting_about_camera_name_layout" android:selectable="false" android:key="pref_camera_sub_setting_about_camera_name_key" />
+        <com.oplus.camera.ui.menu.CameraSubSettingAboutVersionPreference android:layout="@layout/camera_sub_setting_about_version_layout" android:selectable="false" android:key="pref_camera_sub_setting_about_version_key" />
+        <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_about_setting_open_source_license_category" oplusos:isFirstCategory="false">
+            <com.coui.appcompat.preference.COUIJumpPreference android:persistent="false" android:title="@string/camera_sub_setting_open_source_license" android:selectable="true" android:key="pref_about_setting_open_source_license" />
+        </com.coui.appcompat.preference.COUIPreferenceCategory>
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_privacy_setting_function" oplusos:isFirstCategory="true">
+        <com.coui.appcompat.preference.COUIJumpPreference android:persistent="false" android:title="@string/privacy_policy_link" android:selectable="true" android:key="pref_privacy_setting_privacy_policy" />
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_mode_document_v2" android:key="pref_mode_document_switch" android:defaultValue="true" oplusos:isPreferenceVisible="false" />
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_mode_breeno_scan_v2" android:key="pref_mode_breeno_scan_switch" android:defaultValue="true" oplusos:isPreferenceVisible="false" />
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_location_service_title" android:key="pref_camera_location_service_key" android:summary="@string/camera_location_service_summary" android:defaultValue="false" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:layout="@layout/marisilicon_details_layout" android:key="pref_marisilicon_guide" oplusos:isFirstCategory="true" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:layout="@layout/hs_details_layout" android:key="pref_hs_guide" oplusos:isFirstCategory="true" />
+    <com.oplus.camera.ui.menu.LumoGuidePreference android:layout="@layout/lumo_details_layout" android:key="pref_lumo_guide" oplusos:isFirstCategory="true" />
+    <com.oplus.camera.ui.menu.CameraSwitchListPreferenceCategory android:title="@string/camera_more_focal_length_title" android:key="pref_more_lens_focal_length_list" oplusos:isFirstCategory="true" oplusos:top_margin_type="none" />
+    <com.oplus.camera.ui.menu.CameraFooterPreference android:selectable="false" android:key="pref_more_focal_length_footer_key" oplusos:withExtraMarginBottom="false" />
+    <com.oplus.camera.ui.menu.CameraSingleMarkListPreference android:title="@string/camera_wide_lens_focal_length_title" android:key="pref_wide_lens_focal_length_list" oplusos:isFirstCategory="true" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_image_scanning_function_category" oplusos:top_margin_type="none">
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_super_text_two" android:key="pref_super_text_two_key" android:defaultValue="true" />
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_qrcode_title" android:key="pref_qr_code_scanner_key" android:defaultValue="true" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.oplus.camera.ui.menu.CameraSingleMarkListPreference android:title="@string/camera_setting_capture_resolution_title" android:key="pref_capture_resolution_list" oplusos:isFirstCategory="true" oplusos:top_margin_type="none" />
+    <com.oplus.camera.ui.menu.CameraFooterPreference android:selectable="false" android:key="pref_capture_resolution_footer" android:summary="@string/camera_setting_capture_resolution_summery" />
+    <com.oplus.camera.ui.menu.CameraSingleMarkListPreference android:key="pref_video_auto_fps_sub_list" android:defaultValue="30" oplusos:isFirstCategory="true" />
+    <com.oplus.camera.ui.menu.CameraFooterPreference android:selectable="false" android:key="pre_video_auto_fps_footer" android:summary="@string/camera_video_auto_fps_list_summary" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/camera_setting_photo_category" android:key="pref_photo_format_category" oplusos:isFirstCategory="true" oplusos:top_margin_type="none" />
+    <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_heic_encode_10bits_title" android:key="pref_10bits_heic_encode_key" android:defaultValue="false" />
+    <com.oplus.camera.ui.menu.CameraFooterPreference android:selectable="false" android:key="pref_10bits_heic_encode_footer_key" android:summary="@string/camera_heic_encode_10bits_summary_new" />
+    <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_heif_format_title" android:key="pref_heif_format_key" android:defaultValue="@string/camera_heif_format_default_value" />
+    <com.oplus.camera.ui.menu.CameraFooterPreference android:selectable="false" android:key="pref_heif_format_footer_key" android:summary="@string/camera_heif_format_summary" oplusos:withExtraMarginBottom="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/camera_setting_video" android:key="pref_video_format_category" oplusos:isFirstCategory="false">
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_hevc_video_title" android:key="pref_hevc_video_key" android:defaultValue="@string/camera_hevc_video_default_value" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.oplus.camera.ui.menu.CameraFooterPreference android:selectable="false" android:key="pref_hevc_video_setting_footer_key" android:summary="@string/camera_hevc_video_setting_summary" />
+    <com.coui.appcompat.preference.COUIMenuPreference android:persistent="true" android:entries="@array/setting_long_press_shutter_choice" android:title="@string/camera_setting_long_press_shutter" android:selectable="true" android:key="pref_long_process_choice_key" android:widgetLayout="@layout/coui_preference_widget_jump" android:dialogTitle="@string/camera_setting_long_press_shutter" android:entryValues="@array/setting_long_press_shutter_values" oplusos:coui_jump_mark="@drawable/coui_dialog_arrow" oplusos:isFirstCategory="true" />
+    <com.oplus.camera.ui.menu.CameraSingleMarkListPreference android:title="@string/burst_shot_setting" android:key="pref_burst_shot_type" oplusos:isFirstCategory="false" />
+    <Preference android:layout="@layout/color_preference_bottom_divider" android:selectable="false" android:key="pref_bottom_line" />
+    <Preference android:layout="@layout/color_preference_bottom_blank" android:selectable="false" android:key="pref_bottom_blank" />
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dd_toolbar_item_view_height">62.0dp</dimen>
+    <dimen name="dd_toolbar_text_margin_top">8.0dp</dimen>
+    <dimen name="dd_toolbar_text_view_height">14.0dp</dimen>
+    <dimen name="rack_master_mode_draw_menu_height">221.0dp</dimen>
+</resources>

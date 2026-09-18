@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="camera_shooting_reference_delete_item">
+        <item quantity="one">Ջնջել %1$d տարր</item>
+        <item quantity="other">Ջնջել %1$d տարր</item>
+    </plurals>
+    <plurals name="camera_shooting_reference_select_item">
+        <item quantity="one">Ընտրվել է %1$d տարր</item>
+        <item quantity="other">Ընտրվել է %1$d տարր</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Էջ %1$d՝ %2$d-ից</item>
+        <item quantity="other">Էջ %1$d՝ %2$d-ից</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d նոր ծանուցում</item>
+        <item quantity="other">%d նոր ծանուցում</item>
+    </plurals>
+    <plurals name="setting_display_burst_delay">
+        <item quantity="one">%d վայրկյան</item>
+        <item quantity="other">%d վայրկյան</item>
+    </plurals>
+    <plurals name="setting_display_burst_repeat">
+        <item quantity="one">%d կադր</item>
+        <item quantity="other">%d կադր</item>
+    </plurals>
+    <plurals name="sticker_recycle_bin_title_has_selected">
+        <item quantity="one">Ընտրված է %1$d կպչուն պիտակ</item>
+        <item quantity="other">Ընտրված է %1$d կպչուն պիտակ</item>
+    </plurals>
+    <plurals name="video_message_max_duration_4k_120fps">
+        <item quantity="one">Դուք կարող եք գրառել մինչև %d րոպե 4K տեսանյութ 120 կադր/վրկ արագությամբ</item>
+        <item quantity="other">Դուք կարող եք գրառել մինչև %d րոպե 4K տեսանյութ 120 կադր/վրկ արագությամբ</item>
+    </plurals>
+    <plurals name="video_message_max_duration_8k_24fps">
+        <item quantity="one">Դուք կարող եք գրառել մինչև %d րոպե 8K տեսանյութ 24 կադր/վրկ արագությամբ</item>
+        <item quantity="other">Դուք կարող եք գրառել մինչև %d րոպե 8K տեսանյութ 24 կադր/վրկ արագությամբ</item>
+    </plurals>
+    <plurals name="video_message_max_duration_8k_30fps">
+        <item quantity="one">Դուք կարող եք գրառել մինչև %d րոպե 8K տեսանյութ 30 կադր/վրկ արագությամբ</item>
+        <item quantity="other">Դուք կարող եք գրառել մինչև %d րոպե 8K տեսանյութ 30 կադր/վրկ արագությամբ</item>
+    </plurals>
+</resources>

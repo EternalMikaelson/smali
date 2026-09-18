@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="face_beauty_enter_button_height">31.5dp</dimen>
+    <dimen name="face_beauty_enter_button_margin_bottom">13.25dp</dimen>
+    <dimen name="face_beauty_enter_button_margin_right">15.699982dp</dimen>
+    <dimen name="face_beauty_enter_button_width">31.5dp</dimen>
+    <dimen name="long_exposure_infinitude_button_margin_top">514.0dp</dimen>
+    <dimen name="long_exposure_scale_bar_margin_top">436.0dp</dimen>
+    <dimen name="long_exposure_scale_bar_margin_top_common_0_screen">480.0dp</dimen>
+    <dimen name="shutter_button_margin_top">644.3281dp</dimen>
+    <dimen name="switch_camera_button_margin_top">653.3281dp</dimen>
+    <dimen name="thumbnail_margin_start_fake">36.0dp</dimen>
+    <dimen name="values_h">2510.0px</dimen>
+</resources>

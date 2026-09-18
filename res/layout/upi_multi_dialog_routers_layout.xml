@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/panel_scroll_view" android:paddingTop="@dimen/dp_6" android:paddingBottom="@dimen/dp_22" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/result_routers" android:padding="@dimen/dp_14" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/gpay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20" android:layout_marginBottom="@dimen/dp_4" android:layout_marginStart="@dimen/dp_20" android:layout_marginEnd="@dimen/dp_20">
+            <ImageView android:id="@id/gpay_image" android:layout_width="@dimen/dp_44" android:layout_height="@dimen/dp_44" android:src="@drawable/gpay" />
+            <TextView android:textSize="@dimen/dp_10" android:textColor="@color/dialog_router_text_color" android:ellipsize="end" android:id="@id/gpay_text" android:layout_width="wrap_content" android:layout_height="28.0dp" android:layout_marginTop="@dimen/dp_4" android:text="GPay" android:lines="1" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/phonepe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20" android:layout_marginBottom="@dimen/dp_4" android:layout_marginStart="@dimen/dp_20" android:layout_marginEnd="@dimen/dp_20">
+            <ImageView android:id="@id/phonepe_image" android:layout_width="@dimen/dp_44" android:layout_height="@dimen/dp_44" android:src="@drawable/phonpe" />
+            <TextView android:textSize="@dimen/dp_10" android:textColor="@color/dialog_router_text_color" android:ellipsize="end" android:id="@id/phonepe_text" android:layout_width="wrap_content" android:layout_height="28.0dp" android:layout_marginTop="@dimen/dp_4" android:text="PhonePe" android:lines="1" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/paytm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20" android:layout_marginBottom="@dimen/dp_4" android:layout_marginStart="@dimen/dp_20" android:layout_marginEnd="@dimen/dp_20">
+            <ImageView android:id="@id/paytm_image" android:layout_width="@dimen/dp_44" android:layout_height="@dimen/dp_44" android:src="@drawable/paytm" />
+            <TextView android:textSize="@dimen/dp_10" android:textColor="@color/dialog_router_text_color" android:ellipsize="end" android:id="@id/paytm_text" android:layout_width="wrap_content" android:layout_height="28.0dp" android:layout_marginTop="@dimen/dp_4" android:text="Paytm" android:lines="1" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

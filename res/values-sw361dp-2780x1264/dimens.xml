@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="filter_menu_panel_bottom_margin_common_screen">70.0dp</dimen>
+    <dimen name="values_h">2780.0px</dimen>
+    <dimen name="zoom_arc_seekbar_focus_circle_center_y_1240">85.0dp</dimen>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <bitmap android:src="@drawable/flash_brightness_process_icon" android:tint="@color/gray" />
+    </item>
+    <item android:id="@android:id/secondaryProgress">
+        <bitmap android:src="@drawable/flash_brightness_process_icon" android:tint="@color/gray" />
+    </item>
+    <item android:id="@android:id/progress">
+        <bitmap android:src="@drawable/flash_brightness_process_icon" android:tint="@color/gray" android:tileMode="clamp" android:tileModeX="repeat" />
+    </item>
+</layer-list>

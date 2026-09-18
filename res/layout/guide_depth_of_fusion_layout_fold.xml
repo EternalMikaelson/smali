@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dolby_video_guide_layout" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_gravity="center" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_guide_big_margin" android:layoutDirection="ltr" app:cardCornerRadius="@dimen/common_bottom_guide_background_radius">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_video_thumb" android:background="@drawable/depth_of_field_fusion_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/image_title1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dp" android:layout_marginTop="134.0dp" android:text="@string/camera_nature_blur" android:height="16.0dp" android:width="124.0dp" android:textDirection="locale" style="@style/ImageGuideTitleStyle" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/image_title2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="148.0dp" android:layout_marginTop="134.0dp" android:text="@string/camera_full_range_clarity" android:height="16.0dp" android:width="124.0dp" android:textDirection="locale" style="@style/ImageGuideTitleStyle" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/guide_tips_container" android:paddingTop="@dimen/common_bottom_guide_margin_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.coui.appcompat.statement.COUIMaxHeightScrollView android:scrollbars="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:requiresFadingEdge="vertical" app:scrollViewMaxHeight="76.0dp">
+            <androidx.appcompat.widget.AppCompatTextView android:layout_gravity="center_horizontal" android:id="@id/guide_tips_title" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/guide_dolby_video_picture_margin_left" android:layout_marginRight="@dimen/guide_dolby_video_picture_margin_right" android:text="@string/camera_effect_comparison" android:textDirection="locale" style="@style/GuideTitleStyle" />
+        </com.coui.appcompat.statement.COUIMaxHeightScrollView>
+        <com.coui.appcompat.statement.COUIMaxHeightScrollView android:scrollbars="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_guide_small_margin" android:requiresFadingEdge="vertical" app:scrollViewMaxHeight="200.0dp">
+            <androidx.appcompat.widget.AppCompatTextView android:gravity="start" android:layout_gravity="center_horizontal" android:id="@id/bottom_guide_description" android:text="@string/camera_depth_of_fusion_instructions" android:textDirection="locale" android:paddingStart="@dimen/common_guide_fold_margin" android:paddingEnd="@dimen/common_guide_fold_margin" style="@style/GuideMessageStyle" />
+        </com.coui.appcompat.statement.COUIMaxHeightScrollView>
+    </LinearLayout>
+</LinearLayout>

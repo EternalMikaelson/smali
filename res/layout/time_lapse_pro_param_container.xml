@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/param_rv_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.oplus.camera.feature.timelapse.view.BackItemView android:id="@id/param_rv_back" android:layout_width="@dimen/timelapse_pro_parameter_container_back_icon_width" android:layout_height="@dimen/timelapse_pro_parameter_container_back_icon_height" android:layout_marginStart="@dimen/timelapse_pro_parameter_container_back_icon_margin_start" />
+        <androidx.recyclerview.widget.COUIRecyclerView android:id="@id/param_rv" android:fadingEdgeLength="@dimen/timelapse_pro_parameter_container_fading_edge" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:requiresFadingEdge="horizontal" />
+    </LinearLayout>
+</merge>

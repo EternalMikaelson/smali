@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.camera.ui.temporary.LeftMenuButtonBoxView android:id="@id/camera_menu_left_enter_button" android:background="@drawable/blur_menu_control_button_background_rectangle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="center" android:id="@id/switch_button_stub" android:layout="@layout/master_switch_button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_gravity="left|center" android:id="@id/blur_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left_menu_button_default_margin_left">
+        <com.oplus.camera.coui.view.RotateAnimationView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="@dimen/blur_menu_icon_size" android:layout_height="@dimen/blur_menu_icon_size" android:scaleType="center" />
+        <com.oplus.camera.common.view.RotateAnimationTextView android:textSize="@dimen/full_se_night_box_view_text_size" android:layout_gravity="left|center" android:id="@id/text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left_blur_with_text_button_text_margin_left" android:lines="1" android:textAlignment="center" />
+    </FrameLayout>
+</com.oplus.camera.ui.temporary.LeftMenuButtonBoxView>

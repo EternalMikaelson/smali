@@ -1,0 +1,49 @@
+version: 3.0.3
+apkFileName: OplusCamera.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 35
+  targetSdkVersion: 36
+versionInfo:
+  versionCode: 60000
+  versionName: 6.020.978
+resourcesInfo:
+  packageId: 127
+doNotCompress:
+- arsc
+- dex
+- mp4
+- ogg
+- png
+- so
+- webp
+- assets/CodeEdgeDetect_0324_BCHW.tflite
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- res/raw-night/coui_anim_loading.json
+- res/raw/coui_anim_loading.json
+- res/raw/down_notice.json
+- res/raw/face_beauty_reset_animation.json
+- res/raw/gallery_empty_image_dark.json
+- res/raw/global_button_guide_out_present.json
+- res/raw/global_button_guide_split.json
+- res/raw/keep.xml
+- res/raw/lottie_animation_global_ev_off.json
+- res/raw/lottie_animation_global_ev_on.json
+- res/raw/more_down_tip.json
+- res/raw/out_capture_arrow.json
+- res/raw/out_capture_exit_guide.json
+- res/raw/out_capture_exit_guide2.json
+- res/raw/out_capture_guide.json
+- res/raw/out_capture_guide2.json
+- res/raw/out_capture_guide2_v2.json
+- res/raw/out_capture_guide_common.json
+- res/raw/out_capture_guide_full.json
+- res/raw/out_capture_guide_updown.json
+- res/raw/out_capture_guide_updown_lowrack.json
+- res/raw/out_capture_guide_v2.json
+- res/raw/out_capture_inner_bg.json
+- res/raw/rack_preview_move_up_button_switch.json
+- res/raw/rgba2nv21_fragment_shader.glsl

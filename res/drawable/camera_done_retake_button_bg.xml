@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:camera="http://schemas.android.com/apk/res-auto">
+    <item camera:state_inverse_color="true">
+        <shape android:shape="oval">
+            <size android:height="48.0dp" android:width="48.0dp" />
+            <solid android:color="@color/common_bg_color" />
+            <stroke android:width="1.0dp" android:color="@color/color_white_with_33_percent_transparency" />
+        </shape>
+    </item>
+    <item camera:state_inverse_color="false">
+        <shape android:shape="oval">
+            <size android:height="48.0dp" android:width="48.0dp" />
+            <solid android:color="@color/color_black_with_50_percent_transparency" />
+            <stroke android:width="1.0dp" android:color="@color/color_white_with_33_percent_transparency" />
+        </shape>
+    </item>
+</selector>

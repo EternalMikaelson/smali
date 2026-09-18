@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_content" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="@dimen/menu_rec_mode_padding_left" android:layout_marginTop="@dimen/left_right_screen_zoom_arc_seekbar_bg_circle_radius_v2" android:src="@drawable/ic_party_time_logo" android:layout_centerHorizontal="true" android:layout_marginHorizontal="@dimen/dp_60" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/vertical_headline_item_gap" android:textColor="@color/menu_item_text_color_selected" android:gravity="center_vertical" android:id="@id/tv_enter" android:background="@drawable/ai_scene_party_title_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ai_scene_party_greet_click" android:layout_below="@id/iv_content" android:layout_centerHorizontal="true" android:paddingHorizontal="@dimen/layout_party_greet_padding_horizontal" android:paddingVertical="@dimen/layout_party_greet_padding_vertical" />
+</RelativeLayout>

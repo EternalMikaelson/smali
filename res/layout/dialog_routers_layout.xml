@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/panel_scroll_view" android:paddingTop="@dimen/dp_6" android:paddingBottom="@dimen/dp_22" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/result_routers" android:padding="@dimen/dp_14" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/ovo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20" android:layout_marginBottom="@dimen/dp_4" android:layout_marginStart="@dimen/dp_20" android:layout_marginEnd="@dimen/dp_20">
+            <ImageView android:id="@id/ovo_image" android:layout_width="@dimen/dp_44" android:layout_height="@dimen/dp_44" android:src="@drawable/ovo" />
+            <TextView android:textSize="@dimen/dp_10" android:textColor="@color/dialog_router_text_color" android:ellipsize="end" android:id="@id/ovo_text" android:layout_width="wrap_content" android:layout_height="28.0dp" android:layout_marginTop="@dimen/dp_4" android:text="OVO" android:lines="1" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/gojek" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20" android:layout_marginBottom="@dimen/dp_4" android:layout_marginStart="@dimen/dp_20" android:layout_marginEnd="@dimen/dp_20">
+            <ImageView android:id="@id/gejok_image" android:layout_width="@dimen/dp_44" android:layout_height="@dimen/dp_44" android:src="@drawable/gojek" />
+            <TextView android:textSize="@dimen/dp_10" android:textColor="@color/dialog_router_text_color" android:ellipsize="end" android:id="@id/gejok_text" android:layout_width="wrap_content" android:layout_height="28.0dp" android:layout_marginTop="@dimen/dp_4" android:text="Gejok" android:lines="1" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/dana" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20" android:layout_marginBottom="@dimen/dp_4" android:layout_marginStart="@dimen/dp_20" android:layout_marginEnd="@dimen/dp_20">
+            <ImageView android:id="@id/dana_image" android:layout_width="@dimen/dp_44" android:layout_height="@dimen/dp_44" android:src="@drawable/dana" />
+            <TextView android:textSize="@dimen/dp_10" android:textColor="@color/dialog_router_text_color" android:ellipsize="end" android:id="@id/dana_text" android:layout_width="wrap_content" android:layout_height="28.0dp" android:layout_marginTop="@dimen/dp_4" android:text="DANA" android:lines="1" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/search_bar_container" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coui.appcompat.edittext.COUIEditText android:id="@id/search_bar_edit_text" android:layout_width="match_parent" android:layout_height="@dimen/debug_ui_search_bar_editor_height" android:hint="@string/config_search" android:singleLine="true" android:maxLength="20" android:imeOptions="actionUnspecified|normal" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/debug_ui_search_bar_button_container_height">
+        <com.coui.appcompat.button.COUIButton android:textColor="@color/camera_white" android:id="@id/search_bar_apply_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/config_search" />
+        <com.coui.appcompat.button.COUIButton android:textColor="@color/camera_white" android:id="@id/search_bar_clear_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/config_clear" />
+        <com.coui.appcompat.button.COUIButton android:textColor="@color/camera_white" android:id="@id/search_bar_reset_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/config_reset_all" />
+    </LinearLayout>
+</LinearLayout>

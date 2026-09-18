@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/guide_layout" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/bottom_guide_effective_view" style="@style/GuideEffectiveView.Small" />
+    <include android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/full_screen_mode_guide_tips_margin_top_small" android:maxHeight="@dimen/mode_edit_guide_tips_container_max_height" android:minHeight="@dimen/mode_edit_guide_tips_container_min_height" android:layout_below="@id/bottom_guide_effective_view" app:gridNumber="@integer/grid_guide_column_preference" app:paddingType="defaultType" app:percentMode="paddingMode" layout="@layout/guide_tips_container" />
+    <com.oplus.camera.widget.AnimationButton android:id="@id/guide_button_ok" style="@style/GuideOKButton.Fullscreen" />
+</RelativeLayout>

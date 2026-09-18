@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/gallery_container" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.camera.inverse.InverseRelativeLayout android:id="@id/gallery_pager_inverse_layout" android:background="@color/gallery_preview_inverse_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/gallery_pager" android:saveEnabled="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" android:overScrollMode="always" />
+    </com.oplus.camera.inverse.InverseRelativeLayout>
+    <RelativeLayout android:id="@id/gallery_empty_relative_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.oplus.camera.inverse.InverseTextView android:textSize="@dimen/gallery_preview_empty_title_text_size" android:textColor="@color/color_white_with_30_percent_transparency" android:gravity="center" android:id="@id/gallery_preview_empty_title_text_view" android:visibility="visible" android:layout_width="@dimen/gallery_preview_empty_image_view_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gallery_preview_empty_title_text_view_margin_top" android:text="@string/camera_gallery_preview_empty_title" android:layout_centerHorizontal="true" />
+        <com.oplus.camera.inverse.InverseTextView android:textSize="@dimen/gallery_preview_empty_description_text_size" android:textColor="@color/color_white_with_30_percent_transparency" android:gravity="center" android:id="@id/gallery_preview_empty_description_text_view" android:layout_width="@dimen/gallery_preview_empty_image_view_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gallery_preview_empty_description_text_view_margin_top" android:text="@string/camera_gallery_preview_empty_description_v2" android:layout_below="@id/gallery_preview_empty_title_text_view" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <com.oplus.camera.ui.widget.GalleryBottomMenuLayout android:orientation="horizontal" android:id="@id/gallery_menu_panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/gallery_thumbnail_anim_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/gallery_thumbnail_anim_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/gallery_mask" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:background="@color/color_black_with_40_percent_transparency" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="4.0" />
+        <View android:background="@color/color_black_with_30_percent_transparency" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageView android:id="@id/gallery_preview_tag_icon_image_view" android:visibility="gone" android:layout_width="@dimen/gallery_preview_tag_icon_width" android:layout_height="@dimen/gallery_preview_tag_icon_height" android:scaleType="centerInside" android:layout_alignParentLeft="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/gallery_preview_tag_icon_live_photo" android:background="@drawable/icon_live_photo_bg" android:visibility="gone" android:layout_width="@dimen/tag_live_photo_width" android:layout_height="@dimen/tag_live_photo_height" android:layout_marginLeft="@dimen/tag_live_photo_margin_left" android:layout_marginTop="@dimen/tag_live_photo_margin_top">
+        <ImageView android:layout_width="@dimen/tag_live_photo_image_width" android:layout_height="@dimen/tag_live_photo_image_width" android:layout_marginLeft="@dimen/tag_live_photo_text_margin_left" android:src="@drawable/icon_tag_live_photo" android:scaleType="centerInside" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="@dimen/tag_live_photo_text_size" android:textColor="@color/color_black_with_85_percent_transparency" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tag_live_photo_text_margin_left" android:text="@string/camera_livephoto_split_follow_gallery" android:textFontWeight="500" />
+    </LinearLayout>
+</RelativeLayout>

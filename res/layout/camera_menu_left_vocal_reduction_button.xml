@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.camera.ui.effectcontainer.MenuLeftButton android:id="@id/vocal_reduction_button" android:background="@drawable/face_beauty_menu_control_button_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/soft_light_menu_effect_button" android:layout_above="@id/control_panel_layout" android:contentDescription="@string/camera_video_vocal_reduction" android:layout_alignParentStart="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

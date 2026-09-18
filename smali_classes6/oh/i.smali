@@ -1,0 +1,161 @@
+.class public final synthetic Loh/i;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Ljava/util/function/Consumer;
+
+
+# instance fields
+.field public final synthetic a:Ljava/lang/String;
+
+.field public final synthetic b:Ljava/lang/String;
+
+.field public final synthetic c:Ljava/lang/String;
+
+.field public final synthetic d:F
+
+.field public final synthetic e:I
+
+
+# direct methods
+.method public synthetic constructor <init>(Ljava/lang/String;Ljava/lang/String;FI)V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    const-string v0, "capture_slow"
+
+    .line 5
+    .line 6
+    iput-object v0, p0, Loh/i;->a:Ljava/lang/String;
+
+    .line 7
+    .line 8
+    iput-object p1, p0, Loh/i;->b:Ljava/lang/String;
+
+    .line 9
+    .line 10
+    iput-object p2, p0, Loh/i;->c:Ljava/lang/String;
+
+    .line 11
+    .line 12
+    iput p3, p0, Loh/i;->d:F
+
+    .line 13
+    .line 14
+    iput p4, p0, Loh/i;->e:I
+
+    .line 15
+    .line 16
+    return-void
+.end method
+
+
+# virtual methods
+.method public final accept(Ljava/lang/Object;)V
+    .locals 3
+
+    .line 1
+    check-cast p1, Loh/z;
+
+    .line 2
+    .line 3
+    new-instance v0, Loh/g0;
+
+    .line 4
+    .line 5
+    invoke-direct {v0}, Loh/g0;-><init>()V
+
+    .line 6
+    .line 7
+    .line 8
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-wide v1
+
+    .line 12
+    iput-wide v1, v0, Loh/g0;->h:J
+
+    .line 13
+    .line 14
+    iget-object v1, p0, Loh/i;->a:Ljava/lang/String;
+
+    .line 15
+    .line 16
+    iput-object v1, v0, Loh/g0;->a:Ljava/lang/String;
+
+    .line 17
+    .line 18
+    const v1, 0x10011002
+
+    .line 19
+    .line 20
+    .line 21
+    iput v1, v0, Loh/g0;->c:I
+
+    .line 22
+    .line 23
+    iget-object v1, p0, Loh/i;->b:Ljava/lang/String;
+
+    .line 24
+    .line 25
+    invoke-static {v1}, Ljava/lang/Float;->parseFloat(Ljava/lang/String;)F
+
+    .line 26
+    .line 27
+    .line 28
+    move-result v1
+
+    .line 29
+    iput v1, v0, Loh/g0;->d:F
+
+    .line 30
+    .line 31
+    iget-object v1, p0, Loh/i;->c:Ljava/lang/String;
+
+    .line 32
+    .line 33
+    invoke-static {v1}, Ljava/lang/Float;->parseFloat(Ljava/lang/String;)F
+
+    .line 34
+    .line 35
+    .line 36
+    move-result v1
+
+    .line 37
+    iput v1, v0, Loh/g0;->e:F
+
+    .line 38
+    .line 39
+    iget p0, p0, Loh/i;->d:F
+
+    .line 40
+    .line 41
+    iput p0, v0, Loh/g0;->f:F
+
+    .line 42
+    .line 43
+    new-instance p0, La/a;
+
+    .line 44
+    .line 45
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 46
+    .line 47
+    .line 48
+    invoke-interface {p1, v0, p0}, Loh/z;->a(Loh/g0;Loh/w;)V
+
+    .line 49
+    .line 50
+    .line 51
+    return-void
+.end method

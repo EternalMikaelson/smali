@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/layout_party_title_bg_height" android:width="@dimen/layout_party_title_bg_width" />
+    <solid android:color="@color/ai_scene_background" />
+    <corners android:radius="50.0dp" />
+</shape>

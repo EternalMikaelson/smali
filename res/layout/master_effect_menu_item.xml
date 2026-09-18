@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.camera.common.view.FaceBeautyScaleView android:orientation="vertical" android:id="@id/face_beauty_makeup_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/face_beauty_custom_item_margin_top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.camera.common.view.FaceBeautyItemFrame android:layout_gravity="center_horizontal" android:id="@id/item_frame" android:layout_width="@dimen/face_beauty_item_width" android:layout_height="@dimen/face_beauty_item_width">
+        <View android:id="@id/bg_view" android:background="@drawable/face_beauty_custom_item_background" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+        <com.oplus.camera.common.view.RoundProgressBar android:id="@id/progress_bar" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </com.oplus.camera.common.view.FaceBeautyItemFrame>
+    <com.oplus.camera.inverse.InverseBeautifyTextView android:ellipsize="end" android:gravity="center|top" android:layout_gravity="center_horizontal" android:id="@id/text" android:layout_width="@dimen/face_beauty_custom_menu_text_width" android:layout_height="@dimen/face_beauty_custom_menu_text_height" android:layout_marginTop="@dimen/face_beauty_custom_menu_text_margin_top" android:maxLines="1" style="@style/MasterEffectTextStyle" />
+</com.oplus.camera.common.view.FaceBeautyScaleView>

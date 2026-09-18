@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="camera_shooting_reference_delete_item">
+        <item quantity="one">%1$d টা আইটেম বিলোপ কৰক</item>
+        <item quantity="other">%1$d টা আইটেম বিলোপ কৰক</item>
+    </plurals>
+    <plurals name="camera_shooting_reference_select_item">
+        <item quantity="one">%1$d বাছনি কৰিছে</item>
+        <item quantity="other">%1$d বাছনি কৰিছে</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">পৃষ্ঠা %2$d-ৰ %1$d</item>
+        <item quantity="other">পৃষ্ঠা %2$d-ৰ %1$d</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d নতুন জাননী</item>
+        <item quantity="other">%d নতুন জাননীসমূহ</item>
+    </plurals>
+    <plurals name="setting_display_burst_delay">
+        <item quantity="one">%d ছেকেণ্ড</item>
+        <item quantity="other">%d ছেকেণ্ড</item>
+    </plurals>
+    <plurals name="setting_display_burst_repeat">
+        <item quantity="one">%d টা শ্বট</item>
+        <item quantity="other">%d টা শ্বট</item>
+    </plurals>
+    <plurals name="sticker_recycle_bin_title_has_selected">
+        <item quantity="one">%1$d ষ্টিকাৰ বাছনি কৰিছে</item>
+        <item quantity="other">%1$d ষ্টিকাৰসমূহ বাছনি কৰিছে</item>
+    </plurals>
+    <plurals name="video_message_max_duration_4k_120fps">
+        <item quantity="one">আপুনি 120 fps-ত 4K ভিডিঅ’ৰ %d মিনিটলৈকে ৰেকৰ্ড কৰিব পাৰে</item>
+        <item quantity="other">আপুনি 120 fps-ত 4K ভিডিঅ’ৰ %d মিনিটলৈকে ৰেকৰ্ড কৰিব পাৰে</item>
+    </plurals>
+    <plurals name="video_message_max_duration_8k_24fps">
+        <item quantity="one">আপুনি 24 fps-ত 8K ভিডিঅ’ৰ %d মিনিটলৈকে ৰেকৰ্ড কৰিব পাৰে</item>
+        <item quantity="other">আপুনি 24 fps-ত 8K ভিডিঅ’ৰ %d মিনিটলৈকে ৰেকৰ্ড কৰিব পাৰে</item>
+    </plurals>
+    <plurals name="video_message_max_duration_8k_30fps">
+        <item quantity="one">আপুনি 30 fps-ত 8K ভিডিঅ’ৰ %d মিনিটলৈকে ৰেকৰ্ড কৰিব পাৰে</item>
+        <item quantity="other">আপুনি 30 fps-ত 8K ভিডিঅ’ৰ %d মিনিটলৈকে ৰেকৰ্ড কৰিব পাৰে</item>
+    </plurals>
+</resources>

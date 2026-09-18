@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/pager_item_card_view" android:layout_width="160.0dp" android:layout_height="90.0dp" android:layout_centerVertical="true" android:layout_marginStart="24.0dp">
+        <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="match_parent" android:elevation="0.0dp" app:cardBackgroundColor="@android:color/transparent" app:cardCornerRadius="@dimen/common_bottom_guide_background_radius_land" app:cardElevation="0.0dp">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/pager_item_im" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <com.coui.appcompat.scrollview.COUIScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/bottom_guide_description_scroll_view" android:scrollbars="vertical" android:fadingEdgeLength="10.0dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="always" android:requiresFadingEdge="vertical" android:layout_toEndOf="@id/pager_item_card_view">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/common_bottom_guide_margin_horizontal" android:layout_marginEnd="@dimen/common_bottom_guide_margin_horizontal">
+            <com.oplus.camera.widget.GuideTextView android:textSize="@dimen/guide_ai_perfect_shot_title_text_size" android:textStyle="bold" android:textColor="@color/full_page_guide_text_color_white" android:layout_gravity="center_horizontal" android:id="@id/bottom_guide_tips_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dp" android:text="@string/camera_group_photo_guide_title" android:alpha="0.85" android:textDirection="locale" />
+            <com.oplus.camera.widget.GuideTextView android:textSize="@dimen/guide_ai_perfect_shot_content_text_size_land" android:textColor="@color/full_page_guide_text_color_white" android:layout_gravity="center_horizontal" android:id="@id/bottom_guide_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/guide_ai_perfect_shot_content_margin_top" android:text="@string/camera_group_photo_guide_content" android:lineSpacingExtra="@dimen/common_bottom_guide_tips_text_line_spacing" android:alpha="0.55" />
+        </LinearLayout>
+    </com.coui.appcompat.scrollview.COUIScrollView>
+</RelativeLayout>

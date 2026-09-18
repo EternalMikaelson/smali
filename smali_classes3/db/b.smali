@@ -1,0 +1,28 @@
+.class public final Ldb/b;
+.super Ljava/lang/Object;
+.source "EffectStyleManager.java"
+
+# interfaces
+.implements Lcom/oplus/camera/feature/filter/view/EffectStylePageIndicator$c;
+
+
+# instance fields
+.field public final synthetic a:Ldb/c;
+
+
+# direct methods
+.method public constructor <init>(Ldb/c;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Ldb/b;->a:Ldb/c;
+
+    .line 5
+    .line 6
+    return-void
+.end method

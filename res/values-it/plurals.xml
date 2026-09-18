@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="camera_shooting_reference_delete_item">
+        <item quantity="one">Elimina %1$d elemento</item>
+        <item quantity="other">Elimina %1$d elementi</item>
+    </plurals>
+    <plurals name="camera_shooting_reference_select_item">
+        <item quantity="one">%1$d selezionato/i</item>
+        <item quantity="other">%1$d selezionato/i</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Pagina %1$d di %2$d</item>
+        <item quantity="other">Pagina %1$d di %2$d</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nuova notifica</item>
+        <item quantity="other">%d nuove notifiche</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d nuova notifica</item>
+        <item quantity="other">%d nuove notifiche</item>
+    </plurals>
+    <plurals name="setting_display_burst_delay">
+        <item quantity="one">%d s</item>
+        <item quantity="other">%d s</item>
+    </plurals>
+    <plurals name="setting_display_burst_repeat">
+        <item quantity="one">%d colpo</item>
+        <item quantity="other">%d colpi</item>
+    </plurals>
+    <plurals name="sticker_recycle_bin_title_has_selected">
+        <item quantity="one">%1$d adesivo selezionato</item>
+        <item quantity="other">%1$d adesivi selezionati</item>
+    </plurals>
+    <plurals name="video_message_max_duration_4k_120fps">
+        <item quantity="one">Puoi registrare fino a %d minuto di video 4K a 120 fps</item>
+        <item quantity="other">Puoi registrare fino a %d minuti di video 4K a 120 fps</item>
+    </plurals>
+    <plurals name="video_message_max_duration_8k_24fps">
+        <item quantity="one">Puoi registrare fino a %d minuto di video 8K a 24 fps</item>
+        <item quantity="other">Puoi registrare fino a %d minuti di video 8K a 24 fps</item>
+    </plurals>
+    <plurals name="video_message_max_duration_8k_30fps">
+        <item quantity="one">Puoi registrare fino a %d minuto di video 8K a 30 fps</item>
+        <item quantity="other">Puoi registrare fino a %d minuti di video 8K a 30 fps</item>
+    </plurals>
+</resources>

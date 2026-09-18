@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sau_dialog_description_head">Mettre à jour les logs :</string>
+    <string name="sau_dialog_downloaded_prompt">Le package de mise à niveau a été téléchargé sans consommer de données cellulaires. Installer maintenant.</string>
+    <string name="sau_dialog_install_later">Plus tard</string>
+    <string name="sau_dialog_install_now">Installer</string>
+    <string name="sau_dialog_mobile_propmt">Vous utilisez actuellement le réseau cellulaire. Les mises à jour de l’application consommeront des données cellulaires.</string>
+    <string name="sau_dialog_size">Taille :</string>
+    <string name="sau_dialog_upgrade_later">Annuler</string>
+    <string name="sau_dialog_vername">Version :</string>
+</resources>

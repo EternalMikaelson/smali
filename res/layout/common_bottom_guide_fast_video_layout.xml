@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/fast_video_layout" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_guide_big_margin">
+        <com.oplus.camera.widget.TextureVideoView android:id="@id/videoView" android:layout_width="match_parent" android:layout_height="@dimen/fast_video_bottom_guide_video_height" android:layout_marginLeft="@dimen/fast_video_bottom_guide_video_margin_left" android:layout_marginRight="@dimen/fast_video_bottom_guide_video_margin_left" />
+        <ImageView android:id="@id/iv_video_thumb" android:layout_width="match_parent" android:layout_height="@dimen/fast_video_bottom_guide_thumb_height" android:layout_marginLeft="@dimen/fast_video_bottom_guide_video_margin_left" android:layout_marginRight="@dimen/fast_video_bottom_guide_video_margin_left" android:scaleType="fitXY" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/guide_tips_container" android:paddingTop="@dimen/common_bottom_guide_margin_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/guide_tips_tv" android:text="@string/camera_video_hyper_lapse_title" android:textDirection="locale" style="@style/GuideTitleStyle" />
+        <com.coui.appcompat.statement.COUIMaxHeightScrollView android:scrollbars="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_guide_small_margin" android:requiresFadingEdge="vertical">
+            <androidx.appcompat.widget.AppCompatTextView android:gravity="center_horizontal" android:id="@id/bottom_guide_description" android:text="@string/hyper_lapse_guide_description" android:lineSpacingExtra="@dimen/common_bottom_guide_tips_text_line_spacing" style="@style/GuideMessageStyle" />
+        </com.coui.appcompat.statement.COUIMaxHeightScrollView>
+    </LinearLayout>
+</LinearLayout>

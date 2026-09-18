@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mode_edit_guide_effective_view_height">316.0dp</dimen>
+    <dimen name="more_item_side_spacing">26.0dp</dimen>
+    <dimen name="more_recycle_margin_bottom_above_control_panel">20.0dp</dimen>
+    <dimen name="more_recycle_top_bottom_diff">0.0dp</dimen>
+    <dimen name="portrait_common_screen_mode_video_record_time_margin_top">584.66406dp</dimen>
+    <dimen name="portrait_common_screen_mode_video_record_time_margin_top_1240">584.66406dp</dimen>
+    <dimen name="thumbnail_width_nomal">48.0dp</dimen>
+    <dimen name="values_h">2168.0px</dimen>
+    <dimen name="values_w">1092.0px</dimen>
+</resources>

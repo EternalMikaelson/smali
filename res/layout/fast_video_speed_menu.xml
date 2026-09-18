@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/fast_video_speed_menu_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/speed_menu_hint" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="@dimen/face_beauty_custom_menu_hint_height" android:text="@string/camera_setting_menu_multiple" android:layout_centerHorizontal="true" style="@style/ScreenHintStyle" />
+    <com.oplus.camera.feature.fastvideo.view.SpeedScaleBar android:id="@id/speed_scale_bar" android:layout_width="@dimen/fast_video_speed_scale_bar_width" android:layout_height="@dimen/fast_video_speed_scale_bar_height" android:layout_marginTop="@dimen/fast_video_speed_scale_bar_margin_top" android:layout_marginBottom="@dimen/fast_video_speed_scale_bar_margin_bottom" android:layout_centerHorizontal="true" />
+    <com.oplus.camera.common.view.SwitchImageView android:id="@id/auto_icon" android:visibility="gone" android:layout_width="@dimen/fast_video_speed_auto_icon_size" android:layout_height="@dimen/fast_video_speed_auto_icon_size" android:layout_marginTop="@dimen/fast_video_speed_auto_icon_margin_top" android:layout_marginStart="@dimen/fast_video_speed_auto_icon_margin_start" />
+</RelativeLayout>

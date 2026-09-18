@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:camera="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/default_button" android:background="@drawable/time_lapse_pro_default_btn_bg" android:layout_width="@dimen/time_lapse_pro_scale_no_parameter_img_size" android:layout_height="@dimen/time_lapse_pro_scale_no_parameter_img_size" android:layout_marginLeft="@dimen/time_lapse_pro_scale_no_parameter_img_margin_left" android:layout_marginTop="@dimen/time_lapse_pro_scale_no_parameter_img_margin_top" android:src="@drawable/time_lapse_pro_scale_no_parameter_img_icon" />
+    <com.oplus.camera.feature.timelapse.view.TimeLapseProParamScaleBar android:id="@id/scale_bar" android:clipChildren="true" android:clipToPadding="true" android:layout_width="match_parent" android:layout_height="@dimen/time_lapse_pro_seekbar_height" android:layout_marginLeft="@dimen/time_lapse_pro_scale_margin_common" android:layout_marginRight="@dimen/time_lapse_pro_scale_margin_common" />
+</RelativeLayout>

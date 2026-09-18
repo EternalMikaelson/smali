@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="camera_shooting_reference_delete_item">
+        <item quantity="one">%1$d تۈرنى ئۆچۈرۈش</item>
+        <item quantity="other">%1$d تۈرنى ئۆچۈرۈش</item>
+    </plurals>
+    <plurals name="camera_shooting_reference_select_item">
+        <item quantity="one">%1$d تۈر تاللاندى</item>
+        <item quantity="other">%1$d تۈر تاللاندى</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">%1$d - بەت، جەمئىي %2$d بەت</item>
+        <item quantity="other">%1$d - بەت، جەمئىي %2$d بەت</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d يېڭى ئۇقتۇرۇش</item>
+        <item quantity="other">%d يېڭى ئۇقتۇرۇش</item>
+    </plurals>
+    <plurals name="setting_display_burst_delay">
+        <item quantity="one">%d سېكۇنت</item>
+        <item quantity="other">%d سېكۇنت</item>
+    </plurals>
+    <plurals name="setting_display_burst_repeat">
+        <item quantity="one">%d پارچە</item>
+        <item quantity="other">%d پارچە</item>
+    </plurals>
+    <plurals name="sticker_recycle_bin_title_has_selected">
+        <item quantity="one">%1$d پارچە قەغەز تاللاندى</item>
+        <item quantity="other">%1$d پارچە قەغەز تاللاندى</item>
+    </plurals>
+    <plurals name="video_message_max_duration_4k_120fps">
+        <item quantity="one">4K 120FPS لىق سىننىڭ ئۇزۇنلۇق چەكلىمىسى %d مىنۇت</item>
+        <item quantity="other">4K 120FPS لىق سىننىڭ ئۇزۇنلۇق چەكلىمىسى %d مىنۇت</item>
+    </plurals>
+    <plurals name="video_message_max_duration_8k_24fps">
+        <item quantity="one">8K 24FPS لىق سىننىڭ ئۇزۇنلۇق چەكلىمىسى %d مىنۇت</item>
+        <item quantity="other">8K 24FPS لىق سىننىڭ ئۇزۇنلۇق چەكلىمىسى %d مىنۇت</item>
+    </plurals>
+    <plurals name="video_message_max_duration_8k_30fps">
+        <item quantity="one">8K 30FPS لىق سىننىڭ ئۇزۇنلۇق چەكلىمىسى %d مىنۇت</item>
+        <item quantity="other">8K 30FPS لىق سىننىڭ ئۇزۇنلۇق چەكلىمىسى %d مىنۇت</item>
+    </plurals>
+</resources>

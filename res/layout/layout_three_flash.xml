@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/three_flash_bar_layout" android:background="@android:color/transparent" android:clickable="true" android:layout_width="match_parent" android:layout_height="80.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_three_flash_reset" android:layout_width="32.0dp" android:layout_height="32.0dp" android:src="@drawable/auto_three_flash_img" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" android:layout_marginStart="16.0dp" android:layout_alignParentStart="true" />
+    <FrameLayout android:orientation="vertical" android:id="@id/ll_flash_brightness" android:layout_width="match_parent" android:layout_height="30.0dp" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" android:layout_marginStart="11.0dp" android:layout_marginEnd="48.0dp" android:layout_toEndOf="@id/iv_three_flash_reset" android:layout_alignParentEnd="true">
+        <com.oplus.camera.feature.basic.flash.ui.ColorLevelBar android:layout_gravity="center_vertical" android:id="@id/flash_color_level" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="4.0dp" android:progressDrawable="@drawable/shape_line" android:paddingStart="12.0dp" android:paddingEnd="12.0dp" />
+        <com.oplus.camera.feature.basic.flash.ui.FlashBrightnessBar android:id="@id/flash_brightness" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="3.2999878dp" android:progressDrawable="@drawable/flash_brightness_process" android:numStars="3" android:rating="1.0" android:stepSize="0.01" android:paddingStart="12.0dp" android:paddingEnd="12.0dp" />
+    </FrameLayout>
+</RelativeLayout>

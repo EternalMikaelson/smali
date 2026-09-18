@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/camera_debug_name" android:key="camera_setting_menu_root_preference"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:camera="http://schemas.android.com/apk/res-auto" xmlns:oplusos="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/color_preference_header" android:selectable="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/camera_debug_common" android:key="pref_common_function" oplusos:isFirstCategory="true">
+        <com.coui.appcompat.preference.COUIJumpPreference android:persistent="false" android:title="@string/reset_config" android:selectable="true" android:key="pref_reset_key" android:summary="@string/reset_config_summary" />
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_visual" android:key="pref_camera_visual" android:defaultValue="false" />
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_capture_defer_visual" android:key="pref_camera_capture_defer_visual" android:defaultValue="false" />
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_preview_dump" android:key="pref_preview_dump" android:defaultValue="false" />
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_capture_dump" android:key="pref_capture_dump" android:defaultValue="false" />
+        <com.oplus.camera.ui.menu.CameraSwitchPreference android:title="@string/camera_debug_log" android:key="pref_camera_debug_log_switch" android:defaultValue="false" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/camera_debug_app" android:key="pref_app_function" oplusos:isFirstCategory="false">
+        <com.coui.appcompat.preference.COUIJumpPreference android:persistent="false" android:title="@string/camera_debug_app_config" android:selectable="true" android:key="pref_app_config_key" android:summary="@string/camera_debug_app_config_summary" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:persistent="false" android:title="@string/auto_quick_capture" android:selectable="true" android:key="pref_auto_quick_capture_key" android:summary="@string/camera_debug_auto_quick_capture_summary" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:persistent="false" android:title="@string/private_log_config" android:selectable="true" android:key="pref_private_log_config_key" android:summary="@string/private_log_summary" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/camera_debug_aps" android:key="pref_aps_function" oplusos:isFirstCategory="false">
+        <com.coui.appcompat.preference.COUIJumpPreference android:persistent="false" android:title="@string/algo_switch" android:selectable="true" android:key="pref_go_to_algo_switch_page_key" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:persistent="false" android:title="@string/camera_debug_aps_dump" android:selectable="true" android:key="pref_aps_dump_key" android:summary="@string/camera_debug_aps_dump_summary" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/camera_debug_hal" android:key="pref_hal_function" oplusos:isFirstCategory="false">
+        <com.coui.appcompat.preference.COUIJumpPreference android:persistent="false" android:title="@string/camera_debug_hal_dump" android:selectable="true" android:key="pref_hal_dump_key" android:summary="@string/camera_debug_hal_dump_summary" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/camera_debug_iq" android:key="pref_iq_function" oplusos:isFirstCategory="false">
+        <com.coui.appcompat.preference.COUIJumpPreference android:persistent="false" android:title="@string/camera_debug_iq_dump" android:selectable="true" android:key="pref_iq_dump_key" android:summary="@string/camera_debug_iq_dump_summary" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIBottomPreference />
+</androidx.preference.PreferenceScreen>

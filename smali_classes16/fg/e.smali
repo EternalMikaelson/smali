@@ -1,0 +1,94 @@
+.class public final synthetic Lfg/e;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Ljava/util/function/Consumer;
+
+
+# instance fields
+.field public final synthetic a:Lfg/l;
+
+.field public final synthetic b:Z
+
+
+# direct methods
+.method public synthetic constructor <init>(Lfg/l;Z)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lfg/e;->a:Lfg/l;
+
+    .line 5
+    .line 6
+    iput-boolean p2, p0, Lfg/e;->b:Z
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final accept(Ljava/lang/Object;)V
+    .locals 2
+
+    .line 1
+    check-cast p1, Landroid/widget/RelativeLayout;
+
+    .line 2
+    .line 3
+    iget-object v0, p0, Lfg/e;->a:Lfg/l;
+
+    .line 4
+    .line 5
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 6
+    .line 7
+    .line 8
+    invoke-virtual {p1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object v1
+
+    .line 12
+    if-eqz v1, :cond_1
+
+    .line 13
+    .line 14
+    iget-boolean p0, p0, Lfg/e;->b:Z
+
+    .line 15
+    .line 16
+    if-eqz p0, :cond_0
+
+    .line 17
+    .line 18
+    iget p0, v0, Lfg/l;->G:F
+
+    .line 19
+    .line 20
+    goto :goto_0
+
+    .line 21
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 22
+    :goto_0
+    invoke-virtual {p1, p0}, Landroid/view/View;->setTranslationY(F)V
+
+    .line 23
+    .line 24
+    .line 25
+    :cond_1
+    return-void
+.end method

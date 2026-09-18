@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@id/pager_item_card_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_guide_big_margin" android:layout_marginRight="@dimen/common_guide_big_margin" app:cardCornerRadius="@dimen/common_bottom_guide_background_radius">
+        <RelativeLayout android:id="@id/rl_layout" android:background="@color/White" android:layout_width="match_parent" android:layout_height="@dimen/guide_hs_portrait_bottom_fold_rack_top_margin">
+            <View android:id="@id/iv_divider" android:background="@color/White" android:layout_width="1.0dp" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/pager_item_im" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/guide_os15_filter_qingxin" android:scaleType="fitXY" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/text_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/common_guide_small_margin" android:text="@string/camera_filter_oplus_before_use" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/common_guide_small_margin" android:layout_toStartOf="@id/iv_divider" style="@style/FilterGuideCompareStyle" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/text_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/common_guide_small_margin" android:text="@string/camera_filter_oplus_after_use" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/common_guide_small_margin" android:layout_alignParentEnd="true" style="@style/FilterGuideCompareStyle" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_guide_big_margin">
+        <androidx.appcompat.widget.AppCompatTextView android:layout_gravity="center_horizontal" android:id="@id/guide_tips_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_guide_big_margin" android:layout_marginRight="@dimen/common_guide_big_margin" android:text="@string/camera_hdr_dv_guide_page_title" android:textDirection="locale" style="@style/GuideTitleStyle" />
+        <com.coui.appcompat.statement.COUIMaxHeightScrollView android:scrollbars="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_guide_small_margin" android:requiresFadingEdge="vertical">
+            <androidx.appcompat.widget.AppCompatTextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/bottom_guide_description" android:text="@string/camera_hdr_dv_guide_page_content" android:textDirection="locale" android:forceDarkAllowed="false" style="@style/GuideMessageStyle" />
+        </com.coui.appcompat.statement.COUIMaxHeightScrollView>
+    </LinearLayout>
+</LinearLayout>

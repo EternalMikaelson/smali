@@ -1,0 +1,194 @@
+.class public final Lm0/b$b;
+.super Ljava/lang/Object;
+.source "FragmentStrictMode.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lm0/b;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "b"
+.end annotation
+
+
+# static fields
+.field public static final c:Lm0/b$b;
+    .annotation build Lkotlin/jvm/JvmField;
+    .end annotation
+.end field
+
+
+# instance fields
+.field public final a:Ljava/util/Set;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Set<",
+            "Lm0/b$a;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final b:Ljava/util/LinkedHashMap;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    .line 1
+    new-instance v0, Lm0/b$b;
+
+    .line 2
+    .line 3
+    invoke-static {}, Lkotlin/collections/x;->emptySet()Ljava/util/Set;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v1
+
+    .line 7
+    invoke-static {}, Lkotlin/collections/r;->emptyMap()Ljava/util/Map;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object v2
+
+    .line 11
+    invoke-direct {v0, v1, v2}, Lm0/b$b;-><init>(Ljava/util/Set;Ljava/util/Map;)V
+
+    .line 12
+    .line 13
+    .line 14
+    sput-object v0, Lm0/b$b;->c:Lm0/b$b;
+
+    .line 15
+    .line 16
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/util/Set;Ljava/util/Map;)V
+    .locals 2
+
+    .line 1
+    const-string v0, "flags"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    const-string v0, "allowedViolations"
+
+    .line 7
+    .line 8
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 9
+    .line 10
+    .line 11
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 12
+    .line 13
+    .line 14
+    iput-object p1, p0, Lm0/b$b;->a:Ljava/util/Set;
+
+    .line 15
+    .line 16
+    new-instance p1, Ljava/util/LinkedHashMap;
+
+    .line 17
+    .line 18
+    invoke-direct {p1}, Ljava/util/LinkedHashMap;-><init>()V
+
+    .line 19
+    .line 20
+    .line 21
+    invoke-interface {p2}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+
+    .line 22
+    .line 23
+    .line 24
+    move-result-object p2
+
+    .line 25
+    invoke-interface {p2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+
+    .line 26
+    .line 27
+    .line 28
+    move-result-object p2
+
+    .line 29
+    :goto_0
+    invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
+
+    .line 30
+    .line 31
+    .line 32
+    move-result v0
+
+    .line 33
+    if-eqz v0, :cond_0
+
+    .line 34
+    .line 35
+    invoke-interface {p2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    .line 36
+    .line 37
+    .line 38
+    move-result-object v0
+
+    .line 39
+    check-cast v0, Ljava/util/Map$Entry;
+
+    .line 40
+    .line 41
+    invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+
+    .line 42
+    .line 43
+    .line 44
+    move-result-object v1
+
+    .line 45
+    check-cast v1, Ljava/lang/String;
+
+    .line 46
+    .line 47
+    invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+
+    .line 48
+    .line 49
+    .line 50
+    move-result-object v0
+
+    .line 51
+    check-cast v0, Ljava/util/Set;
+
+    .line 52
+    .line 53
+    invoke-interface {p1, v1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 54
+    .line 55
+    .line 56
+    goto :goto_0
+
+    .line 57
+    :cond_0
+    iput-object p1, p0, Lm0/b$b;->b:Ljava/util/LinkedHashMap;
+
+    .line 58
+    .line 59
+    return-void
+.end method

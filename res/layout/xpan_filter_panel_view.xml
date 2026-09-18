@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.camera.feature.xpan.view.widget.XpanShadowView android:paddingTop="@dimen/xpan_filter_panel_shadow_padding_top" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/xpan_filter_panel_bg" android:scaleType="fitXY" app:shadowOffsetY="-4.0dp" app:shadowRadius="8.0dp" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/xpan_filter_panel_shadow_padding_top" android:layout_alignParentTop="true">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/xpan_filter_panel_handle" android:layout_width="@dimen/xpan_filter_panel_item_horizontal_width" android:layout_height="37.0dp" android:layout_marginTop="0.0dp" android:src="@drawable/inset_xpan_filter_panel_handle" android:scaleType="center" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <com.oplus.camera.feature.xpan.view.widget.HighlightRecyclerView android:id="@id/xpan_filter_scroll_bar_recycler_view" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="45.5dp" android:layout_alignParentTop="true" />
+        <View android:id="@id/xpan_filter_panel_item_selected_frame" android:background="@drawable/shape_xpan_filter_panel_selected_frame" android:layout_width="@dimen/xpan_filter_panel_item_selected_frame_width" android:layout_height="@dimen/xpan_filter_panel_item_selected_frame_height" android:layout_marginTop="48.5dp" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</merge>

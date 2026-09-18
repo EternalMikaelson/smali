@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/face_beauty_split_bg" />
+    <size android:height="@dimen/face_beauty_custom_split_height" android:width="@dimen/face_beauty_custom_split_width" />
+    <stroke android:width="@dimen/face_beauty_custom_split_stroke_width" android:color="@color/face_beauty_split_stroke" />
+</shape>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="camera_shooting_reference_delete_item">
+        <item quantity="one">删除%1$d项</item>
+        <item quantity="other">删除%1$d项</item>
+    </plurals>
+    <plurals name="camera_shooting_reference_select_item">
+        <item quantity="one">已选择%1$d项</item>
+        <item quantity="other">已选择%1$d项</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">第 %1$d 页，共 %2$d 页</item>
+        <item quantity="other">第 %1$d 页，共 %2$d 页</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d 条新通知</item>
+        <item quantity="other">%d 条新通知</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">有%d条新通知</item>
+        <item quantity="other">有%d条新通知</item>
+    </plurals>
+    <plurals name="setting_display_burst_delay">
+        <item quantity="one">%d 秒</item>
+        <item quantity="other">%d 秒</item>
+    </plurals>
+    <plurals name="setting_display_burst_repeat">
+        <item quantity="one">%d 张</item>
+        <item quantity="other">%d 张</item>
+    </plurals>
+    <plurals name="sticker_recycle_bin_title_has_selected">
+        <item quantity="one">已选择 %1$d 张贴纸</item>
+        <item quantity="other">已选择 %1$d 张贴纸</item>
+    </plurals>
+    <plurals name="video_message_max_duration_4k_120fps">
+        <item quantity="one">4K 120FPS 视频长度限制为 %d 分钟</item>
+        <item quantity="other">4K 120FPS 视频长度限制为 %d 分钟</item>
+    </plurals>
+    <plurals name="video_message_max_duration_8k_24fps">
+        <item quantity="one">8K 24FPS 视频长度限制为 %d 分钟</item>
+        <item quantity="other">8K 24FPS 视频长度限制为 %d 分钟</item>
+    </plurals>
+    <plurals name="video_message_max_duration_8k_30fps">
+        <item quantity="one">8K 30FPS 视频长度限制为 %d 分钟</item>
+        <item quantity="other">8K 30FPS 视频长度限制为 %d 分钟</item>
+    </plurals>
+</resources>

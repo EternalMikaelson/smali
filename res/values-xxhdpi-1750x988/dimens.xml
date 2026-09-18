@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="effects_menu_margin_top">318.0dp</dimen>
+    <dimen name="effects_menu_title_margin_top">402.5dp</dimen>
+    <dimen name="panorama_arrow_height">18.0dp</dimen>
+    <dimen name="panorama_line_width">0.70000005dp</dimen>
+    <dimen name="sticker_shutter_button_translate_y">22.0dp</dimen>
+</resources>

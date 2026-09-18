@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="camera_shooting_reference_delete_item">
+        <item quantity="one">Supprimer %1$d élément</item>
+        <item quantity="many">Supprimer %1$d éléments</item>
+        <item quantity="other">Supprimer %1$d éléments</item>
+    </plurals>
+    <plurals name="camera_shooting_reference_select_item">
+        <item quantity="one">%1$d sélectionnée(s)</item>
+        <item quantity="many">%1$d sélectionnée(s)</item>
+        <item quantity="other">%1$d sélectionnée(s)</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Page %1$d sur %2$d</item>
+        <item quantity="many">Page %1$d sur %2$d</item>
+        <item quantity="other">Page %1$d sur %2$d</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nouvelle notification</item>
+        <item quantity="other">%d nouvelles notifications</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d nouvelle notification</item>
+        <item quantity="many">%d nouvelles notifications</item>
+        <item quantity="other">%d nouvelles notifications</item>
+    </plurals>
+    <plurals name="setting_display_burst_delay">
+        <item quantity="one">%d sec</item>
+        <item quantity="many">%d sec</item>
+        <item quantity="other">%d sec</item>
+    </plurals>
+    <plurals name="setting_display_burst_repeat">
+        <item quantity="one">%d prise de vue</item>
+        <item quantity="many">%d prises de vue</item>
+        <item quantity="other">%d prises de vue</item>
+    </plurals>
+    <plurals name="sticker_recycle_bin_title_has_selected">
+        <item quantity="one">%1$d autocollant sélectionné</item>
+        <item quantity="many">"%1$d d'autocollants sélectionnés"</item>
+        <item quantity="other">%1$d autocollants sélectionnés</item>
+    </plurals>
+    <plurals name="video_message_max_duration_4k_120fps">
+        <item quantity="one">"Vous pouvez enregistrer jusqu'à %d minute de vidéo 4K à 120 ips"</item>
+        <item quantity="many">"Vous pouvez enregistrer jusqu'à %d minutes de vidéo 4K à 120 ips"</item>
+        <item quantity="other">"Vous pouvez enregistrer jusqu'à %d minutes de vidéo 4K à 120 ips"</item>
+    </plurals>
+    <plurals name="video_message_max_duration_8k_24fps">
+        <item quantity="one">"Vous pouvez enregistrer jusqu'à %d minute de vidéo 8K à 24 ips"</item>
+        <item quantity="many">"Vous pouvez enregistrer jusqu'à %d minutes de vidéo 8K à 24 ips"</item>
+        <item quantity="other">"Vous pouvez enregistrer jusqu'à %d minutes de vidéo 8K à 24 ips"</item>
+    </plurals>
+    <plurals name="video_message_max_duration_8k_30fps">
+        <item quantity="one">"Vous pouvez enregistrer jusqu'à %d minute de vidéo 8K à 30 ips"</item>
+        <item quantity="many">"Vous pouvez enregistrer jusqu'à %d minutes de vidéo 8K à 30 ips"</item>
+        <item quantity="other">"Vous pouvez enregistrer jusqu'à %d minutes de vidéo 8K à 30 ips"</item>
+    </plurals>
+</resources>
