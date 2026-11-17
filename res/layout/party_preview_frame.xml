@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.camera.inverse.InversePartyRelativeLayout android:orientation="vertical" android:id="@id/party_layout" android:visibility="gone" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/control_panel_layout" android:layout_below="@id/camera_setting_bar_placeholder" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/party_layout_frame_top" android:background="@color/black" android:layout_width="match_parent" android:layout_height="@dimen/long_exposure_mode_scale_bar_gradient_width" android:layout_above="@id/party_layout_frame" android:layout_alignTop="@id/party_layout_frame" />
+    <FrameLayout android:id="@id/party_layout_frame" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/party_layout_frame_bottom" android:background="@color/black" android:layout_width="match_parent" android:layout_height="@dimen/long_exposure_mode_scale_bar_gradient_width" android:layout_below="@id/party_layout_frame" />
+</com.oplus.camera.inverse.InversePartyRelativeLayout>

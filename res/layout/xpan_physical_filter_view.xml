@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.camera.feature.xpan.view.widget.XpanShadowView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/xpan_filter_frame" android:layout_centerInParent="true" app:needShadowX="false" app:shadowOffsetY="1.0dp" app:shadowPadding="@dimen/xpan_view_shadow_padding" app:shadowRadius="3.0dp" app:viewRadius="6.0dp" />
+    <View android:id="@id/xpan_filter_content" android:background="@drawable/xpan_filter_origin_content" android:layout_width="@dimen/xpan_filter_content_width" android:layout_height="@dimen/xpan_filter_content_height" android:layout_centerInParent="true" />
+    <ViewStub android:id="@id/stub_xpan_filter_recycler_view" android:clipChildren="true" android:clipToPadding="true" android:layout="@layout/xpan_filter_recycler_view" android:layout_width="@dimen/xpan_filter_content_width" android:layout_height="@dimen/xpan_filter_content_height" android:layout_centerInParent="true" />
+    <View android:background="@drawable/xpan_film_shell" android:layout_width="@dimen/xpan_filter_content_width" android:layout_height="@dimen/xpan_filter_content_height" android:layout_centerInParent="true" />
+    <View android:id="@id/xpan_filter_press_effect" android:background="@drawable/xpan_filter_origin_press_effect" android:layout_width="44.0dp" android:layout_height="30.0dp" android:layout_centerInParent="true" android:alpha="0.0" />
+    <View android:id="@id/xpan_filter_touch_control" android:clickable="false" android:layout_width="@dimen/xpan_filter_view_width" android:layout_height="@dimen/xpan_filter_view_height" android:layout_centerInParent="true" />
+</merge>

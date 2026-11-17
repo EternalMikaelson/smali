@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/guide_content_container" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_guide_big_margin" />
+    <com.coui.appcompat.indicator.COUIPageIndicator android:layout_gravity="center_horizontal" android:id="@id/guide_content_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_guide_line_height_message" android:layout_marginBottom="@dimen/common_guide_big_margin" app:dotColor="@color/page_indicator_dot_color" app:dotSize="@dimen/dual_style_dialog_indicator_dot_size" app:dotSpacing="@dimen/dual_style_dialog_indicator_dot_spacing" app:dotStrokeWidth="@dimen/dual_style_dialog_indicator_dot_stroke_width" app:traceDotColor="@color/page_indicator_trace_dot_color" />
+</LinearLayout>

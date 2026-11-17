@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.camera.common.view.SwitchCameraBar android:id="@id/switch_camera_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/xpan_mode_switch_camera_bar_height" android:layout_marginTop="@dimen/xpan_camera_switch_margin_top" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" app:dividedSwitchBarStyle="true" app:idleTextBold="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

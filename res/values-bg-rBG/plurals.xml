@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="camera_shooting_reference_delete_item">
+        <item quantity="one">Изтриване на %1$d елемент</item>
+        <item quantity="other">Изтриване на %1$d елемента</item>
+    </plurals>
+    <plurals name="camera_shooting_reference_select_item">
+        <item quantity="one">%1$d избрани</item>
+        <item quantity="other">%1$d избрани</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Страница %1$d от %2$d</item>
+        <item quantity="other">Страница %1$d от %2$d</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d ново известие</item>
+        <item quantity="other">%d нови известия</item>
+    </plurals>
+    <plurals name="setting_display_burst_delay">
+        <item quantity="one">%d сек</item>
+        <item quantity="other">%d сек</item>
+    </plurals>
+    <plurals name="setting_display_burst_repeat">
+        <item quantity="one">%d заснемане</item>
+        <item quantity="other">%d заснемания</item>
+    </plurals>
+    <plurals name="sticker_recycle_bin_title_has_selected">
+        <item quantity="one">Избран е %1$d стикер</item>
+        <item quantity="other">%1$d избрани стикера</item>
+    </plurals>
+    <plurals name="video_message_max_duration_4k_120fps">
+        <item quantity="one">Можете да записвате до %d минута 4K видеоклип при 120 кадъра/сек</item>
+        <item quantity="other">Можете да записвате до %d минути 4K видеоклип при 120 кадъра/сек</item>
+    </plurals>
+    <plurals name="video_message_max_duration_8k_24fps">
+        <item quantity="one">Можете да записвате до %d минута 8K видеоклип при 24 кадъра/сек</item>
+        <item quantity="other">Можете да записвате до %d минути 8K видеоклип при 24 кадъра/сек</item>
+    </plurals>
+    <plurals name="video_message_max_duration_8k_30fps">
+        <item quantity="one">Можете да записвате до %d минута 8K видеоклип при 30 кадъра/сек</item>
+        <item quantity="other">Можете да записвате до %d минути 8K видеоклип при 30 кадъра/сек</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="36.0dp" android:width="36.0dp" android:drawable="@drawable/ai_camera_enter_bg" android:top="0.0dp" android:start="0.0dp" />
+    <item android:gravity="center" android:drawable="@drawable/ai_camera_enter_in" android:top="0.0dp" android:start="0.0dp" />
+</layer-list>

@@ -1,0 +1,114 @@
+.class Lcom/oplus/aiunit/core/callback/IAIMessenger$Stub$Proxy;
+.super Ljava/lang/Object;
+.source "IAIMessenger.java"
+
+# interfaces
+.implements Lcom/oplus/aiunit/core/callback/IAIMessenger;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/oplus/aiunit/core/callback/IAIMessenger$Stub;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "Proxy"
+.end annotation
+
+
+# virtual methods
+.method public final asBinder()Landroid/os/IBinder;
+    .locals 0
+
+    .line 1
+    const/4 p0, 0x0
+
+    .line 2
+    return-object p0
+.end method
+
+.method public final s1(Lcom/oplus/aiunit/core/FramePackage;)I
+    .locals 3
+
+    .line 1
+    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v0
+
+    .line 9
+    :try_start_0
+    const-string v1, "com.oplus.aiunit.core.callback.IAIMessenger"
+
+    .line 10
+    .line 11
+    invoke-virtual {p0, v1}, Landroid/os/Parcel;->writeInterfaceToken(Ljava/lang/String;)V
+
+    .line 12
+    .line 13
+    .line 14
+    const/4 v1, 0x0
+
+    .line 15
+    if-eqz p1, :cond_0
+
+    .line 16
+    .line 17
+    const/4 v2, 0x1
+
+    .line 18
+    invoke-virtual {p0, v2}, Landroid/os/Parcel;->writeInt(I)V
+
+    .line 19
+    .line 20
+    .line 21
+    invoke-interface {p1, p0, v1}, Landroid/os/Parcelable;->writeToParcel(Landroid/os/Parcel;I)V
+
+    .line 22
+    .line 23
+    .line 24
+    goto :goto_0
+
+    .line 25
+    :cond_0
+    invoke-virtual {p0, v1}, Landroid/os/Parcel;->writeInt(I)V
+
+    .line 26
+    .line 27
+    .line 28
+    :goto_0
+    const/4 p1, 0x0
+
+    .line 29
+    throw p1
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 30
+    :catchall_0
+    move-exception p1
+
+    .line 31
+    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+
+    .line 32
+    .line 33
+    .line 34
+    invoke-virtual {p0}, Landroid/os/Parcel;->recycle()V
+
+    .line 35
+    .line 36
+    .line 37
+    throw p1
+.end method

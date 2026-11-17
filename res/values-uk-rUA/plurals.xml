@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="camera_shooting_reference_delete_item">
+        <item quantity="one">Видалити %1$d елемент</item>
+        <item quantity="few">Видалити %1$d елементи</item>
+        <item quantity="many">Видалити %1$d елементів</item>
+        <item quantity="other">Видалити елементів: %1$d</item>
+    </plurals>
+    <plurals name="camera_shooting_reference_select_item">
+        <item quantity="one">Вибрано %1$d</item>
+        <item quantity="few">Вибрано %1$d</item>
+        <item quantity="many">Вибрано %1$d</item>
+        <item quantity="other">Вибрано %1$d</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Сторінка %1$d із %2$d</item>
+        <item quantity="few">Сторінка %1$d із %2$d</item>
+        <item quantity="many">Сторінка %1$d із %2$d</item>
+        <item quantity="other">Сторінка %1$d із %2$d</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d нове сповіщення</item>
+        <item quantity="few">%d нові сповіщення</item>
+        <item quantity="many">%d нових сповіщень</item>
+        <item quantity="other">Нових сповіщень: %d</item>
+    </plurals>
+    <plurals name="setting_display_burst_delay">
+        <item quantity="one">%d с</item>
+        <item quantity="few">%d с</item>
+        <item quantity="many">%d с</item>
+        <item quantity="other">%d с</item>
+    </plurals>
+    <plurals name="setting_display_burst_repeat">
+        <item quantity="one">Кадрів: %d</item>
+        <item quantity="few">Кадрів: %d</item>
+        <item quantity="many">Кадрів: %d</item>
+        <item quantity="other">Кадрів: %d</item>
+    </plurals>
+    <plurals name="sticker_recycle_bin_title_has_selected">
+        <item quantity="one">Вибрано %1$d наліпку</item>
+        <item quantity="few">Вибрано %1$d наліпки</item>
+        <item quantity="many">Вибрано %1$d наліпок</item>
+        <item quantity="other">Вибрано %1$d наліпки</item>
+    </plurals>
+    <plurals name="video_message_max_duration_4k_120fps">
+        <item quantity="one">Можна записати до %d хвилини відео з роздільною здатністю 4K та частотою 120 кадрів на секунду</item>
+        <item quantity="few">Можна записати до %d хвилин відео з роздільною здатністю 4K та частотою 120 кадрів на секунду</item>
+        <item quantity="many">Можна записати до %d хвилин відео з роздільною здатністю 4K та частотою 120 кадрів на секунду</item>
+        <item quantity="other">Можна записати до %d хвилин відео з роздільною здатністю 4K та частотою 120 кадрів на секунду</item>
+    </plurals>
+    <plurals name="video_message_max_duration_8k_24fps">
+        <item quantity="one">Можна записати до %d хвилини відео з роздільною здатністю 8K та частотою 24 кадри на секунду</item>
+        <item quantity="few">Можна записати до %d хв відео з роздільною здатністю 8K та частотою 24 кадри на секунду</item>
+        <item quantity="many">Можна записати до %d хв відео з роздільною здатністю 8K та частотою 24 кадри на секунду</item>
+        <item quantity="other">Можна записати до %d хв відео з роздільною здатністю 8K та частотою 24 кадри на секунду</item>
+    </plurals>
+    <plurals name="video_message_max_duration_8k_30fps">
+        <item quantity="one">Можна записати до %d хвилини відео з роздільною здатністю 8K та частотою 30 кадрів на секунду</item>
+        <item quantity="few">Можна записати до %d хвилин відео з роздільною здатністю 8K та частотою 30 кадрів на секунду</item>
+        <item quantity="many">Можна записати до %d хвилин відео з роздільною здатністю 8K та частотою 30 кадрів на секунду</item>
+        <item quantity="other">Можна записати до %d хвилин відео з роздільною здатністю 8K та частотою 30 кадрів на секунду</item>
+    </plurals>
+</resources>

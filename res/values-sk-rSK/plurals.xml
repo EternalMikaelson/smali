@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="camera_shooting_reference_delete_item">
+        <item quantity="one">Odstrániť %1$d položku</item>
+        <item quantity="few">Odstrániť %1$d položky</item>
+        <item quantity="many">Odstrániť %1$d položiek</item>
+        <item quantity="other">Odstrániť %1$d položky/-iek</item>
+    </plurals>
+    <plurals name="camera_shooting_reference_select_item">
+        <item quantity="one">%1$d vybr.</item>
+        <item quantity="few">%1$d vybr.</item>
+        <item quantity="many">%1$d vybr.</item>
+        <item quantity="other">%1$d vybr.</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Strana %1$d z %2$d</item>
+        <item quantity="few">Strana %1$d z %2$d</item>
+        <item quantity="many">Strana %1$d z %2$d</item>
+        <item quantity="other">Strana %1$d z %2$d</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d nové oznámenie</item>
+        <item quantity="few">%d nové oznámenia</item>
+        <item quantity="many">%d nových oznámení</item>
+        <item quantity="other">%d nové oznámenia/-í</item>
+    </plurals>
+    <plurals name="setting_display_burst_delay">
+        <item quantity="one">%d s</item>
+        <item quantity="few">%d s</item>
+        <item quantity="many">%d s</item>
+        <item quantity="other">%d s</item>
+    </plurals>
+    <plurals name="setting_display_burst_repeat">
+        <item quantity="one">%d záber</item>
+        <item quantity="few">%d záberov</item>
+        <item quantity="many">%d záberov</item>
+        <item quantity="other">%d záberov</item>
+    </plurals>
+    <plurals name="sticker_recycle_bin_title_has_selected">
+        <item quantity="one">%1$d vybr. nálepka</item>
+        <item quantity="few">%1$d vybraté nálepky</item>
+        <item quantity="many">%1$d vybratých nálepiek</item>
+        <item quantity="other">%1$d vybratých nálepiek</item>
+    </plurals>
+    <plurals name="video_message_max_duration_4k_120fps">
+        <item quantity="one">Zaznamenať možno maximálne %d min. 4K videa pri snímkovej frekvencii 120 fps</item>
+        <item quantity="few">Zaznamenať možno maximálne %d min. 4K videa pri snímkovej frekvencii 120 fps</item>
+        <item quantity="many">Zaznamenať možno maximálne %d min. 4K videa pri snímkovej frekvencii 120 fps</item>
+        <item quantity="other">Zaznamenať možno maximálne %d min. 4K videa pri snímkovej frekvencii 120 fps</item>
+    </plurals>
+    <plurals name="video_message_max_duration_8k_24fps">
+        <item quantity="one">Zaznamenať možno maximálne %d min. 8K videa pri snímkovej frekvencii 24 fps</item>
+        <item quantity="few">Zaznamenať možno maximálne %d min. 8K videa pri snímkovej frekvencii 24 fps</item>
+        <item quantity="many">Zaznamenať možno maximálne %d min. 8K videa pri snímkovej frekvencii 24 fps</item>
+        <item quantity="other">Zaznamenať možno maximálne %d min. 8K videa pri snímkovej frekvencii 24 fps</item>
+    </plurals>
+    <plurals name="video_message_max_duration_8k_30fps">
+        <item quantity="one">Zaznamenať možno maximálne %d min. 8K videa pri snímkovej frekvencii 30 fps</item>
+        <item quantity="few">Zaznamenať možno maximálne %d min. 8K videa pri snímkovej frekvencii 30 fps</item>
+        <item quantity="many">Zaznamenať možno maximálne %d min. 8K videa pri snímkovej frekvencii 30 fps</item>
+        <item quantity="other">Zaznamenať možno maximálne %d min. 8K videa pri snímkovej frekvencii 30 fps</item>
+    </plurals>
+</resources>

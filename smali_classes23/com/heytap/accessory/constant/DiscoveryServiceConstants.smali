@@ -1,0 +1,27 @@
+.class public Lcom/heytap/accessory/constant/DiscoveryServiceConstants;
+.super Ljava/lang/Object;
+.source "DiscoveryServiceConstants.java"
+
+
+# static fields
+.field public static final EXTRA_CLIENT_ID:Ljava/lang/String; = "client_id"
+
+.field public static final EXTRA_ERROR_CODE:Ljava/lang/String; = "error_code"
+
+.field public static final EXTRA_FP_CORE_VERSION:Ljava/lang/String; = "fp_core_version"
+
+.field public static final EXTRA_SERVICE_VERSION:Ljava/lang/String; = "service_version"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

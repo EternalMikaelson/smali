@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.camera.ui.temporary.TransientStateViewContainer android:orientation="vertical" android:id="@id/transient_container" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.camera.common.view.MultiStateLottieAnimationView android:id="@id/ai_hd_button" android:background="@drawable/temporary_icon_background" android:visibility="gone" android:layout_width="@dimen/transient_icon_size" android:layout_height="@dimen/transient_icon_size" android:contentDescription="@string/camera_setting_preserve_settings_tele_sdsr_v2" />
+    <com.oplus.camera.common.view.MultiStateLottieAnimationView android:id="@id/group_photo_button" android:background="@drawable/temporary_icon_background" android:visibility="gone" android:layout_width="@dimen/transient_icon_size" android:layout_height="@dimen/transient_icon_size" />
+    <com.oplus.camera.common.view.MultiStateLottieAnimationView android:id="@id/macro_switch_button" android:background="@drawable/temporary_icon_background" android:visibility="gone" android:layout_width="@dimen/transient_icon_size" android:layout_height="@dimen/transient_icon_size" android:contentDescription="@string/camera_ai_scn_microspur" />
+    <include android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/transient_icon_size" android:layout_marginTop="@dimen/se_night_box_view_margin_top" layout="@layout/se_night_box_view" />
+</com.oplus.camera.ui.temporary.TransientStateViewContainer>

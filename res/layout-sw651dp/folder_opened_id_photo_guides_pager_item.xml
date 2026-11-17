@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView android:id="@id/pager_item_card_view" android:layout_width="wrap_content" android:layout_height="@dimen/common_guide_image_height" android:layout_marginLeft="@dimen/common_guide_fold_margin" android:layout_marginTop="2.0dp" android:layout_marginRight="@dimen/common_guide_fold_margin" android:layout_centerHorizontal="true" android:elevation="0.0dp" app:cardBackgroundColor="@android:color/transparent" app:cardCornerRadius="@dimen/common_bottom_guide_background_radius" app:cardElevation="0.0dp">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/pager_item_im" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+        <androidx.appcompat.widget.AppCompatTextView android:gravity="center_horizontal" android:id="@id/guids_title_tv" android:layout_marginTop="@dimen/common_guide_big_margin" android:text="@string/camera_mode_id_photo" android:layout_below="@id/pager_item_card_view" android:layout_centerHorizontal="true" android:lineSpacingExtra="@dimen/common_bottom_guide_tips_text_line_spacing" android:textDirection="locale" style="@style/GuideTitleStyle" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center|top" android:id="@id/guide_tips_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_guide_small_margin" android:layout_below="@id/guids_title_tv">
+            <ImageView android:id="@id/tips_icon_im" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/panel_guides_tipsicon" />
+            <androidx.appcompat.widget.AppCompatTextView android:gravity="center_horizontal" android:id="@id/guide_tips_tv" android:layout_marginBottom="@dimen/common_guide_big_margin" android:minLines="2" android:includeFontPadding="false" android:textDirection="locale" android:paddingStart="@dimen/common_guide_fold_margin" android:paddingEnd="@dimen/common_guide_fold_margin" style="@style/GuideMessageStyle" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </RelativeLayout>
+</FrameLayout>

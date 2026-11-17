@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="aspect_tolerance">0.03</dimen>
+    <dimen name="values_h">2130.0px</dimen>
+</resources>

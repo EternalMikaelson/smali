@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/color_black_with_full_percent_transparency" />
+    <size android:height="@dimen/face_beauty_custom_split_height" android:width="@dimen/face_beauty_custom_split_width" />
+</shape>

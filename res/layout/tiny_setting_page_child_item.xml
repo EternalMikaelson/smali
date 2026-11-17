@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="52.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/tiny_setting_sub_page_child_item_text_size" android:textColor="@color/color_white_with_full_percent_transparency" android:id="@id/tiny_setting_sub_page_child_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:lineSpacingExtra="-2.0dp" android:layout_marginStart="16.0dp" android:layout_alignParentStart="true" />
+    <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/tiny_setting_sub_page_child_item_radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/tiny_setting_sub_page_child_item_margin_end" android:layout_alignParentEnd="true" />
+</RelativeLayout>

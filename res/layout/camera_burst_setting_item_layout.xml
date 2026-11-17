@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.camera.inverse.InverseTextView android:textSize="@dimen/ai_scene_text_size" android:textColor="@color/inversable_enabled_interval_shot_text_color_selector" android:id="@id/burst_setting_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_marginStart="4.0dp" android:layout_alignParentStart="true" android:textFontWeight="500" />
+    <com.oplus.camera.inverse.InverseTextView android:textSize="@dimen/ai_scene_text_size" android:textColor="@color/inversable_enabled_interval_shot_text_color_selector" android:id="@id/burst_setting_params" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_marginEnd="4.0dp" android:layout_alignParentEnd="true" android:textFontWeight="500" />
+    <com.oplus.camera.ui.view.IntervalShotSeekBar android:layout_gravity="center_horizontal" android:id="@id/burst_setting_control" android:layout_width="match_parent" android:layout_height="36.0dp" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" app:couiSeekBarPhysicsEnable="true" />
+</RelativeLayout>

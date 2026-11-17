@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="camera_shooting_reference_delete_item">
+        <item quantity="one">%1$d elementi sil</item>
+        <item quantity="other">%1$d elementi sil</item>
+    </plurals>
+    <plurals name="camera_shooting_reference_select_item">
+        <item quantity="one">Seçilib: %1$d</item>
+        <item quantity="other">Seçilib: %1$d</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Səhifə %1$d/%2$d</item>
+        <item quantity="other">Səhifə %1$d/%2$d</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d yeni bildiriş</item>
+        <item quantity="other">%d yeni bildiriş</item>
+    </plurals>
+    <plurals name="setting_display_burst_delay">
+        <item quantity="one">%d san</item>
+        <item quantity="other">%d san</item>
+    </plurals>
+    <plurals name="setting_display_burst_repeat">
+        <item quantity="one">%d çəkiliş</item>
+        <item quantity="other">%d çəkiliş</item>
+    </plurals>
+    <plurals name="sticker_recycle_bin_title_has_selected">
+        <item quantity="one">%1$d stiker seçildi</item>
+        <item quantity="other">%1$d stiker seçildi</item>
+    </plurals>
+    <plurals name="video_message_max_duration_4k_120fps">
+        <item quantity="one">Siz saniyədə 120 kadr sürətlə maksimum %d dəqiqə 4K video qeydə ala bilərsiniz</item>
+        <item quantity="other">Siz saniyədə 120 kadr sürətlə maksimum %d dəqiqə 4K video qeydə ala bilərsiniz</item>
+    </plurals>
+    <plurals name="video_message_max_duration_8k_24fps">
+        <item quantity="one">Siz saniyədə 24 kadr sürətlə maksimum %d dəqiqə 8K video qeydə ala bilərsiniz</item>
+        <item quantity="other">Siz saniyədə 24 kadr sürətlə maksimum %d dəqiqə 8K video qeydə ala bilərsiniz</item>
+    </plurals>
+    <plurals name="video_message_max_duration_8k_30fps">
+        <item quantity="one">Siz saniyədə 30 kadr sürətlə maksimum %d dəqiqə 8K video qeydə ala bilərsiniz</item>
+        <item quantity="other">Siz saniyədə 30 kadr sürətlə maksimum %d dəqiqə 8K video qeydə ala bilərsiniz</item>
+    </plurals>
+</resources>

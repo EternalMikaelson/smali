@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.camera.widget.CameraTimeView android:orientation="horizontal" android:id="@id/video_record_time_layout" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="@dimen/record_time_number_text_height" android:layout_centerHorizontal="true" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/blink_record_icon" android:layout_width="@dimen/time_lapse_pro_blink_icon_width" android:layout_height="@dimen/time_lapse_pro_blink_icon_width" android:layout_marginTop="@dimen/time_lapse_pro_blink_icon_margin_top" android:src="@drawable/ic_recording_indicator" android:scaleType="fitCenter" android:layout_marginEnd="@dimen/record_icon_margin_end" />
+    <ImageView android:id="@id/record_split_view" android:visibility="gone" android:src="@drawable/record_split_view" android:layout_marginEnd="@dimen/record_time_margin_end" android:layout_marginHorizontal="@dimen/camera_time_split_view_horizontal_margin" style="@style/RecordTimeIconStyle" />
+    <com.oplus.camera.inverse.InverseTextView android:textColor="@color/white_inverse_selector" android:id="@id/video_hour_ten" android:visibility="invisible" android:layout_width="wrap_content" style="@style/TimeLapseProRecordTimeTextStyle" />
+    <com.oplus.camera.inverse.InverseTextView android:textColor="@color/white_inverse_selector" android:id="@id/video_hour_unit" android:visibility="invisible" style="@style/TimeLapseProRecordTimeTextStyle" />
+    <com.oplus.camera.inverse.InverseImageView android:id="@id/video_colon" android:visibility="invisible" android:src="@drawable/ic_time_colon_selector" style="@style/TimeLapseProRecordTimeIconStyle" />
+    <com.oplus.camera.inverse.InverseTextView android:textColor="@color/white_inverse_selector" android:id="@id/video_minute_ten" style="@style/TimeLapseProRecordTimeTextStyle" />
+    <com.oplus.camera.inverse.InverseTextView android:textColor="@color/white_inverse_selector" android:id="@id/video_minute_unit" style="@style/TimeLapseProRecordTimeTextStyle" />
+    <com.oplus.camera.inverse.InverseImageView android:id="@id/video_colon_second" android:src="@drawable/ic_time_colon_selector" style="@style/TimeLapseProRecordTimeIconStyle" />
+    <com.oplus.camera.inverse.InverseTextView android:textColor="@color/white_inverse_selector" android:id="@id/video_second_ten" style="@style/TimeLapseProRecordTimeTextStyle" />
+    <com.oplus.camera.inverse.InverseTextView android:textColor="@color/white_inverse_selector" android:id="@id/video_second_unit" style="@style/TimeLapseProRecordTimeTextStyle" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/blink_record_icon_space" android:visibility="invisible" android:layout_width="@dimen/time_lapse_pro_blink_icon_width" android:layout_height="@dimen/time_lapse_pro_blink_icon_width" android:scaleType="fitCenter" android:layout_marginStart="@dimen/record_icon_margin_end" />
+</com.oplus.camera.widget.CameraTimeView>

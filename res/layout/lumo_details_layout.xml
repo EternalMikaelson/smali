@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:id="@id/lumo_rootView" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/lumo_parent_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/lumo_detail_layout_margin_start_end" android:layout_marginEnd="@dimen/lumo_detail_layout_margin_start_end">
+        <com.oplus.camera.widget.GuideTextView android:id="@id/lumo_content_text_1" android:text="@string/lumo_guide_page_content1_1" style="@style/LUMOGuideTextViewStyle_Content" />
+        <com.oplus.camera.widget.GradientColorGuideTextView android:text="@string/lumo_guide_page_title2" style="@style/LUMOGuideTextViewStyle_Title.Gradient" />
+        <com.oplus.camera.widget.GuideTextView android:text="@string/lumo_guide_page_content2" style="@style/LUMOGuideTextViewStyle_Content" />
+        <com.oplus.camera.widget.GuideTextView android:text="@string/lumo_guide_page_title3" style="@style/LUMOGuideTextViewStyle_Title" />
+        <com.oplus.camera.widget.GuideTextView android:text="@string/lumo_guide_page_content3" style="@style/LUMOGuideTextViewStyle_Content" />
+        <ImageView android:layout_width="match_parent" android:layout_height="170.0dp" android:layout_marginTop="12.0dp" android:src="@drawable/lumo_guide_pic_1" />
+        <com.oplus.camera.widget.GuideTextView android:text="@string/lumo_guide_page_title4" style="@style/LUMOGuideTextViewStyle_Title" />
+        <com.oplus.camera.widget.GuideTextView android:text="@string/lumo_guide_page_content4" style="@style/LUMOGuideTextViewStyle_Content" />
+        <ImageView android:layout_width="match_parent" android:layout_height="170.0dp" android:layout_marginTop="12.0dp" android:src="@drawable/lumo_guide_pic_3" />
+        <com.oplus.camera.widget.GuideTextView android:text="@string/lumo_guide_page_title5" style="@style/LUMOGuideTextViewStyle_Title" />
+        <com.oplus.camera.widget.GuideTextView android:text="@string/lumo_guide_page_content5" style="@style/LUMOGuideTextViewStyle_Content" />
+        <ImageView android:layout_width="match_parent" android:layout_height="170.0dp" android:layout_marginTop="12.0dp" android:src="@drawable/lumo_guide_pic_4" />
+        <com.oplus.camera.widget.GuideTextView android:text="@string/lumo_guide_page_title6" style="@style/LUMOGuideTextViewStyle_Title" />
+        <com.oplus.camera.widget.GuideTextView android:text="@string/lumo_guide_page_content6" style="@style/LUMOGuideTextViewStyle_Content" />
+        <VideoView android:layout_gravity="center_horizontal" android:id="@id/lumo_video_view_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" />
+        <com.oplus.camera.widget.GradientColorGuideTextView android:text="@string/lumo_guide_page_title7" style="@style/LUMOGuideTextViewStyle_Title.Gradient" />
+        <com.oplus.camera.widget.GuideTextView android:text="@string/lumo_guide_page_content7" style="@style/LUMOGuideTextViewStyle_Content" />
+        <com.oplus.camera.widget.GuideTextView android:text="@string/lumo_guide_page_title8" style="@style/LUMOGuideTextViewStyle_Title" />
+        <com.oplus.camera.widget.GuideTextView android:text="@string/lumo_guide_page_content8" style="@style/LUMOGuideTextViewStyle_Content" />
+        <ImageView android:layout_width="match_parent" android:layout_height="170.0dp" android:layout_marginTop="12.0dp" android:src="@drawable/lumo_guide_pic_5" />
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/lumo_img_note_layout_1" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="ltr">
+            <com.oplus.camera.widget.GuideTextView android:id="@id/lumo_img_notes_1" android:layout_width="0.0dp" android:layout_weight="1.0" style="@style/LUMOGuideTextViewStyle_Image_Notes" />
+            <com.oplus.camera.widget.GuideTextView android:id="@id/lumo_img_notes_2" android:layout_width="0.0dp" android:layout_weight="1.0" style="@style/LUMOGuideTextViewStyle_Image_Notes" />
+        </LinearLayout>
+        <com.oplus.camera.widget.GuideTextView android:text="@string/lumo_guide_page_title9" style="@style/LUMOGuideTextViewStyle_Title" />
+        <com.oplus.camera.widget.GuideTextView android:text="@string/lumo_guide_page_content9" style="@style/LUMOGuideTextViewStyle_Content" />
+        <ImageView android:layout_width="match_parent" android:layout_height="130.0dp" android:layout_marginTop="12.0dp" android:src="@drawable/lumo_guide_pic_6" />
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/lumo_img_note_layout_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="ltr">
+            <com.oplus.camera.widget.GuideTextView android:layout_width="0.0dp" android:layout_marginRight="3.0dp" android:text="@string/lumo_guide_image_notes_5" android:layout_weight="1.0" style="@style/LUMOGuideTextViewStyle_Image_Notes" />
+            <com.oplus.camera.widget.GuideTextView android:layout_width="0.0dp" android:layout_marginRight="3.0dp" android:text="@string/lumo_guide_image_notes_6" android:layout_weight="1.0" style="@style/LUMOGuideTextViewStyle_Image_Notes" />
+            <com.oplus.camera.widget.GuideTextView android:layout_width="0.0dp" android:text="@string/lumo_guide_image_notes_7" android:layout_weight="1.0" style="@style/LUMOGuideTextViewStyle_Image_Notes" />
+        </LinearLayout>
+        <com.oplus.camera.widget.GuideTextView android:text="@string/lumo_guide_page_title10" style="@style/LUMOGuideTextViewStyle_Title" />
+        <com.oplus.camera.widget.GuideTextView android:text="@string/lumo_guide_page_content10" style="@style/LUMOGuideTextViewStyle_Content" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/lumo_title_rounded_gradient_bg" android:layout_width="328.0dp" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:layoutDirection="ltr">
+            <com.oplus.camera.widget.GuideTextView android:textSize="10.0dp" android:textColor="?couiColorSecondNeutral" android:gravity="center" android:layout_width="164.0dp" android:layout_height="wrap_content" android:minHeight="30.0dp" android:text="@string/lumo_guide_image_notes_8" android:textAlignment="center" android:lineHeight="16.0dp" />
+            <com.oplus.camera.widget.GradientColorGuideTextView android:textSize="10.0dp" android:gravity="center" android:layout_width="164.0dp" android:layout_height="wrap_content" android:minHeight="30.0dp" android:text="@string/lumo_guide_image_notes_9" android:textAlignment="center" android:lineHeight="16.0dp" app:gradienter_color_number="3" app:gradienter_colors="@array/lumo_guide_gradient_colors" />
+        </LinearLayout>
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/lumo_viewpager" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:minHeight="194.0dp" android:overScrollMode="never" />
+        <com.coui.appcompat.indicator.COUIPageIndicator android:layout_gravity="center_horizontal" android:id="@id/lumo_page_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" app:dotColor="@color/page_indicator_dot_color" app:dotSize="6.0dp" app:dotSpacing="3.0dp" app:dotStrokeWidth="0.70000005dp" app:traceDotColor="@color/page_indicator_trace_dot_color" />
+        <com.oplus.camera.widget.GuideTextView android:text="@string/lumo_guide_page_title11" style="@style/LUMOGuideTextViewStyle_Title" />
+        <com.oplus.camera.widget.GuideTextView android:text="@string/lumo_guide_page_content11" style="@style/LUMOGuideTextViewStyle_Content" />
+        <ImageView android:layout_width="match_parent" android:layout_height="170.0dp" android:layout_marginTop="12.0dp" android:src="@drawable/lumo_guide_pic_10" />
+        <com.oplus.camera.widget.GradientColorGuideTextView android:text="@string/lumo_guide_page_title12" style="@style/LUMOGuideTextViewStyle_Title.Gradient" />
+        <com.oplus.camera.widget.GuideTextView android:text="@string/lumo_guide_page_content12" style="@style/LUMOGuideTextViewStyle_Content" />
+        <com.oplus.camera.widget.GuideTextView android:text="@string/lumo_guide_page_title13" style="@style/LUMOGuideTextViewStyle_Title" />
+        <com.oplus.camera.widget.GuideTextView android:text="@string/lumo_guide_page_content13" style="@style/LUMOGuideTextViewStyle_Content" />
+        <VideoView android:layout_gravity="center_horizontal" android:id="@id/lumo_video_view_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" />
+        <com.oplus.camera.widget.GuideTextView android:text="@string/lumo_guide_page_title14" style="@style/LUMOGuideTextViewStyle_Title" />
+        <com.oplus.camera.widget.GuideTextView android:text="@string/lumo_guide_page_content14" style="@style/LUMOGuideTextViewStyle_Content" />
+        <ImageView android:layout_width="match_parent" android:layout_height="170.0dp" android:layout_marginTop="12.0dp" android:src="@drawable/lumo_guide_pic_11" />
+        <com.oplus.camera.widget.GuideTextView android:text="@string/lumo_guide_image_notes_16" style="@style/LUMOGuideTextViewStyle_Image_Notes" />
+        <com.oplus.camera.widget.GuideTextView android:text="@string/lumo_guide_page_title15" style="@style/LUMOGuideTextViewStyle_Title" />
+        <com.oplus.camera.widget.GuideTextView android:text="@string/lumo_guide_page_content15" style="@style/LUMOGuideTextViewStyle_Content" />
+        <ImageView android:layout_width="match_parent" android:layout_height="170.0dp" android:layout_marginTop="12.0dp" android:src="@drawable/lumo_guide_pic_12" />
+        <com.oplus.camera.widget.GuideTextView android:text="@string/lumo_guide_image_notes_17" style="@style/LUMOGuideTextViewStyle_Image_Notes" />
+        <com.oplus.camera.widget.GuideTextView android:layout_marginTop="22.0dp" android:text="@string/camera_setting_preserve_settings_footer_des" android:textAlignment="viewStart" style="@style/LUMOGuideTextViewStyle_Image_Notes" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

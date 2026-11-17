@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/arrange_complete_button_layout" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.camera.widget.AnimationButton android:id="@id/arrange_complete_button" android:paddingTop="0.0dp" android:paddingBottom="0.0dp" android:text="@string/camera_mode_arrange_complete" style="@style/BottomOKButton" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/lumo_item_img" android:layout_width="match_parent" android:layout_height="170.0dp" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/lumo_item_text_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="ltr">
+        <com.oplus.camera.widget.GuideTextView android:id="@id/lumo_item_img_notes_1" android:layout_width="0.0dp" android:layout_weight="1.0" style="@style/LUMOGuideTextViewStyle_Image_Notes" />
+        <com.oplus.camera.widget.GuideTextView android:id="@id/lumo_item_img_notes_2" android:layout_width="0.0dp" android:layout_weight="1.0" style="@style/LUMOGuideTextViewStyle_Image_Notes" />
+    </LinearLayout>
+</LinearLayout>

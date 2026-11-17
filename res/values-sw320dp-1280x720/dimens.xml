@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="night_countdown_time_margin_top">574.66406dp</dimen>
+    <dimen name="night_countdown_time_text_margin_top">598.0dp</dimen>
+    <dimen name="preview_translation_y_1_1">-50.0dp</dimen>
+    <dimen name="preview_translation_y_4_3">-20.0dp</dimen>
+    <dimen name="top_margin_1_1_normal">90.0dp</dimen>
+    <dimen name="top_margin_1_1_pro">80.0dp</dimen>
+</resources>

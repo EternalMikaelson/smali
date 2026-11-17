@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/guide_layout" android:paddingTop="0.0dp" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="0.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/guide_volumeUpLayout" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.oplus.camera.common.view.StrokeTextView android:textColor="@color/White" android:gravity="right|center" android:id="@id/guide_volumeUpHintText" android:layout_width="328.0dp" android:layout_height="60.0dp" android:text="sdsdsdsdsdsdsdssd\nsdsdsds" android:maxLines="3" android:includeFontPadding="false" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/volumeUpHintImg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/volume_hint_drawable" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/guide_volumeDownLayout" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.oplus.camera.common.view.StrokeTextView android:textColor="@color/White" android:gravity="right|center" android:id="@id/guide_volumeDownHintText" android:layout_width="328.0dp" android:layout_height="60.0dp" android:text="sdsdsdsdsdsdsdssd\nsdsdsds" android:maxLines="3" android:includeFontPadding="false" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/volumeDownHintImg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/volume_hint_drawable" android:layout_toRightOf="@id/guide_volumeDownHintText" android:layout_centerVertical="true" android:layout_marginStart="8.0dp" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/guide_powerLayout" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.oplus.camera.common.view.StrokeTextView android:textColor="@color/White" android:gravity="right|center" android:id="@id/guide_powerHintText" android:layout_width="328.0dp" android:layout_height="60.0dp" android:text="sdsdsdsdsdsdsdssd\nsdsdsds" android:maxLines="3" android:includeFontPadding="false" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/powerHintImg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/volume_hint_drawable" android:layout_toRightOf="@id/guide_powerHintText" android:layout_centerVertical="true" android:layout_marginStart="8.0dp" />
+    </RelativeLayout>
+</RelativeLayout>

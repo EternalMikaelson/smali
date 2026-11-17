@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.camera.inverse.InverseTextView android:id="@id/wb_scale_bar_title" android:layout_width="wrap_content" android:layout_height="@dimen/hs_professional_mode_scale_bar_title_height" android:layout_marginTop="@dimen/hs_professional_mode_scale_bar_title_margin_top" android:importantForAccessibility="no" style="@style/ScaleBarTitle" />
+    <com.oplus.camera.inverse.InverseTextView android:id="@id/color_tone_scale_bar_title" android:layout_width="wrap_content" android:layout_height="@dimen/hs_professional_mode_scale_bar_title_height" android:layout_marginTop="@dimen/hs_professional_mode_scale_bar_title_margin_top" android:importantForAccessibility="no" style="@style/ScaleBarTitle" />
+</RelativeLayout>

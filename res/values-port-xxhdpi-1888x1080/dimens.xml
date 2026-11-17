@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="preview_region_margin_top_4_3">20.0dp</dimen>
+    <dimen name="values_h">1888.0px</dimen>
+    <dimen name="values_w">1080.0px</dimen>
+    <dimen name="zoom_arc_seekbar_focus_circle_center_y">59.329987dp</dimen>
+</resources>

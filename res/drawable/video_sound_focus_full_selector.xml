@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:camera="http://schemas.android.com/apk/res-auto">
+    <item android:state_selected="true" android:drawable="@drawable/video_sound_focus_full_select" />
+    <item android:state_selected="false" android:drawable="@drawable/icon_record_sound_focus_full_selector" />
+</selector>

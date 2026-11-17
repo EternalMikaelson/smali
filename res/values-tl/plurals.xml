@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="camera_shooting_reference_delete_item">
+        <item quantity="one">I-delete ang %1$d item</item>
+        <item quantity="other">I-delete ang %1$d (na) item</item>
+    </plurals>
+    <plurals name="camera_shooting_reference_select_item">
+        <item quantity="one">%1$d ang napili</item>
+        <item quantity="other">%1$d ang napili</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Page %1$d sa %2$d</item>
+        <item quantity="other">Page %1$d sa %2$d</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d bagong notification</item>
+        <item quantity="other">%d na bagong notification</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d bagong notification</item>
+        <item quantity="other">%d (na) bagong notification</item>
+    </plurals>
+    <plurals name="setting_display_burst_delay">
+        <item quantity="one">%d seg</item>
+        <item quantity="other">%d seg</item>
+    </plurals>
+    <plurals name="setting_display_burst_repeat">
+        <item quantity="one">%d kuha</item>
+        <item quantity="other">%d (na) kuha</item>
+    </plurals>
+    <plurals name="sticker_recycle_bin_title_has_selected">
+        <item quantity="one">%1$d sticker ang pinili</item>
+        <item quantity="other">%1$d (na) sticker ang pinili</item>
+    </plurals>
+    <plurals name="video_message_max_duration_4k_120fps">
+        <item quantity="one">Puwede kang mag-record ng hanggang sa %d minuto ng 4K video sa 120 fps</item>
+        <item quantity="other">Puwede kang mag-record ng hanggang sa %d (na) minuto ng 4K video sa 120 fps</item>
+    </plurals>
+    <plurals name="video_message_max_duration_8k_24fps">
+        <item quantity="one">Puwede kang mag-record ng hanggang sa %d minuto ng 8K na video sa 24 fps</item>
+        <item quantity="other">Puwede kang mag-record ng hanggang sa %d (na) minuto ng 8K na video sa 24 fps</item>
+    </plurals>
+    <plurals name="video_message_max_duration_8k_30fps">
+        <item quantity="one">Puwede kang mag-record ng hanggang sa %d minuto ng 8K video sa 30 fps</item>
+        <item quantity="other">Puwede kang mag-record ng hanggang sa %d (na) minuto ng 8K video sa 30 fps</item>
+    </plurals>
+</resources>

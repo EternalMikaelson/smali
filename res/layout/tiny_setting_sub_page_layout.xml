@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.camera.ui.tinyui.setting.TinySettingRootView android:id="@id/sub_page_root_view" android:background="#000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/sub_page_root_view_content" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@id/tiny_setting_sub_page_first_view" android:layout_width="match_parent" android:layout_height="match_parent">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/sub_page_close_button" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginTop="21.0dp" android:src="@drawable/icon_back" android:layout_marginStart="16.0dp" android:layout_alignParentStart="true" />
+            <com.coui.appcompat.scrollview.COUIScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="58.0dp" android:layout_marginHorizontal="12.0dp">
+                <LinearLayout android:orientation="vertical" android:id="@id/sub_page_expandable_listview" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </com.coui.appcompat.scrollview.COUIScrollView>
+        </RelativeLayout>
+        <com.oplus.camera.ui.tinyui.setting.TinySettingBurstMenuPage android:id="@id/tiny_setting_burst_menu_page" android:background="@color/color_black_with_full_percent_transparency" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </RelativeLayout>
+</com.oplus.camera.ui.tinyui.setting.TinySettingRootView>

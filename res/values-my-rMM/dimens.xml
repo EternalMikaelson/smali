@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="coui_appbar_title_expanded_margin_top">56.0dp</dimen>
+    <dimen name="menu_effect_filter_row_offset">2.0dp</dimen>
+    <dimen name="menu_effect_filter_text_updown_padding">3.5dp</dimen>
+</resources>

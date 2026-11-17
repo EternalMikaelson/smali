@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:id="@id/gallery_preview_item_container" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/gallery_preview_video_container" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <com.oplus.camera.common.view.AdaptiveRotatableWrapper android:id="@id/gallery_video_rotate_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextureView android:id="@id/gallery_preview_surface" android:visibility="gone" android:layout_width="@dimen/gallery_preview_view_limit_width" android:layout_height="@dimen/gallery_preview_view_limit_height" />
+        </com.oplus.camera.common.view.AdaptiveRotatableWrapper>
+        <RelativeLayout android:id="@id/gallery_preview_video_play_button_block_region" android:visibility="gone" android:layout_width="@dimen/gallery_preview_video_play_button_block_width" android:layout_height="@dimen/gallery_preview_video_play_button_block_height">
+            <RelativeLayout android:id="@id/gallery_preview_video_play_button_touch_region" android:layout_width="@dimen/gallery_preview_video_play_button_touch_width" android:layout_height="@dimen/gallery_preview_video_play_button_touch_height" android:layout_centerInParent="true">
+                <com.oplus.camera.inverse.InverseLinearLayout android:orientation="horizontal" android:id="@id/gallery_preview_video_play_button" android:background="@drawable/video_play_button_background" android:layout_width="wrap_content" android:layout_height="@dimen/gallery_preview_video_play_button_height" android:layout_centerInParent="true">
+                    <ImageView android:layout_gravity="start|center" android:id="@id/gallery_preview_video_play_button_image" android:padding="@dimen/gallery_preview_video_play_button_image_padding" android:layout_width="@dimen/gallery_preview_video_play_button_image_size" android:layout_height="@dimen/gallery_preview_video_play_button_image_size" android:src="@drawable/ic_video_pause" android:scaleType="centerInside" android:layout_marginStart="@dimen/gallery_preview_video_play_button_padding_start" />
+                    <com.oplus.camera.common.view.StrokeTextView android:textSize="@dimen/gallery_preview_video_play_button_text_size" android:textColor="@color/color_white_with_full_percent_transparency" android:layout_gravity="center_vertical" android:id="@id/gallery_preview_video_play_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/play" android:layout_marginStart="@dimen/gallery_preview_video_play_button_text_margin" android:layout_marginEnd="@dimen/gallery_preview_video_play_button_padding_end" />
+                </com.oplus.camera.inverse.InverseLinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/gallery_image_container" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <com.oplus.camera.common.view.AdaptiveRotatableWrapper android:id="@id/gallery_image_rotate_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.oplus.camera.common.view.BaseImageView android:id="@id/gallery_preview_image" android:layout_width="@dimen/gallery_preview_view_limit_width" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" />
+            <com.oplus.gallery.olivesdk.view.OliveView android:id="@id/gallery_preview_live_photo" android:layout_width="@dimen/gallery_preview_view_limit_width" android:layout_height="wrap_content" />
+        </com.oplus.camera.common.view.AdaptiveRotatableWrapper>
+    </RelativeLayout>
+</RelativeLayout>

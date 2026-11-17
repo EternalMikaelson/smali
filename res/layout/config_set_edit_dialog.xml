@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coui.appcompat.edittext.COUIEditText android:id="@id/config_edit_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="50" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.coui.appcompat.button.COUIButton android:textColor="@color/camera_white" android:id="@id/config_edit_ok" android:layout_width="@dimen/debug_ui_button_width" android:layout_height="wrap_content" android:text="OK" />
+        <com.coui.appcompat.button.COUIButton android:textColor="@color/camera_white" android:id="@id/config_edit_reset" android:layout_width="@dimen/debug_ui_button_width" android:layout_height="wrap_content" android:text="Reset" />
+        <com.coui.appcompat.button.COUIButton android:textColor="@color/camera_white" android:id="@id/config_edit_cancel" android:layout_width="@dimen/debug_ui_button_width" android:layout_height="wrap_content" android:text="Cancel" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dd_toolbar_item_view_height">65.0dp</dimen>
+    <dimen name="dd_toolbar_text_margin_top">5.0dp</dimen>
+    <dimen name="dd_toolbar_text_view_height">20.0dp</dimen>
+    <dimen name="values_h">2640.0px</dimen>
+    <dimen name="values_w">1216.0px</dimen>
+    <dimen name="zoom_arc_seekbar_focus_circle_center_y">85.0dp</dimen>
+</resources>

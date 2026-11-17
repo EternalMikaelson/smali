@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/guide_three_flash_layout_bg" android:layout_width="128.0dp" android:layout_height="32.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="18.0dp" android:layout_height="18.0dp" android:src="@drawable/three_flash_code" android:layout_marginStart="15.0dp" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/black" android:id="@id/color_level_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/try_three_flash" android:layout_marginStart="6.0dp" />
+    <ImageView android:layout_width="6.0dp" android:layout_height="12.0dp" android:src="@drawable/arrow_right_black" android:layout_marginStart="8.0dp" />
+</LinearLayout>

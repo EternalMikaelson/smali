@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:camera="http://schemas.android.com/apk/res-auto">
+    <item camera:state_inverse_color="true">
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/gallery_bottom_menu_item_width_height" android:width="@dimen/gallery_bottom_menu_item_width_height" />
+            <corners android:radius="@dimen/gallery_bottom_menu_item_radius" />
+            <solid android:color="@color/color_black_with_50_percent_transparency" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/gallery_bottom_menu_item_width_height" android:width="@dimen/gallery_bottom_menu_item_width_height" />
+            <corners android:radius="@dimen/gallery_bottom_menu_item_radius" />
+            <solid android:color="@color/color_white_with_12_percent_transparency" />
+        </shape>
+    </item>
+</selector>

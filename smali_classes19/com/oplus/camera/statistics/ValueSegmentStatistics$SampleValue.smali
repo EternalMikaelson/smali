@@ -1,0 +1,33 @@
+.class public interface abstract Lcom/oplus/camera/statistics/ValueSegmentStatistics$SampleValue;
+.super Ljava/lang/Object;
+.source "ValueSegmentStatistics.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/oplus/camera/statistics/ValueSegmentStatistics;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "SampleValue"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<S:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract getValue(Ljava/lang/Object;)D
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TS;)D"
+        }
+    .end annotation
+.end method

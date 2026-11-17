@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="18.0dp" android:width="18.0dp" android:viewportWidth="18.0" android:viewportHeight="18.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M0,0h18v18h-18z" />
+        <path android:fillColor="#00000000" android:pathData="M7.285,14.906H3.094V10.715M14.906,10.715V14.906H10.715M10.715,3.094H14.906V7.285M3.094,7.285V3.094H7.285" android:strokeColor="@color/ultra_wide_hint_text_color" android:strokeWidth="1.6" android:strokeLineJoin="round" />
+        <path android:fillColor="@color/ultra_wide_hint_text_color" android:pathData="M6.75,5.25H5.25V6.75H6.75V5.25Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+        <path android:fillColor="@color/ultra_wide_hint_text_color" android:pathData="M6.75,8.25H5.25V9.75H6.75V8.25Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+        <path android:fillColor="@color/ultra_wide_hint_text_color" android:pathData="M6.75,11.25H5.25V12.75H6.75V11.25Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+        <path android:fillColor="@color/ultra_wide_hint_text_color" android:pathData="M8.25,6.75H6.75V8.25H8.25V6.75Z" />
+        <path android:fillColor="@color/ultra_wide_hint_text_color" android:pathData="M8.25,9.75H6.75V11.25H8.25V9.75Z" />
+        <path android:fillColor="@color/ultra_wide_hint_text_color" android:pathData="M11.25,6.75H9.75V8.25H11.25V6.75Z" />
+        <path android:fillColor="@color/ultra_wide_hint_text_color" android:pathData="M11.25,9.75H9.75V11.25H11.25V9.75Z" />
+        <path android:fillColor="@color/ultra_wide_hint_text_color" android:pathData="M12.75,5.25H11.25V6.75H12.75V5.25Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+        <path android:fillColor="@color/ultra_wide_hint_text_color" android:pathData="M12.75,8.25H11.25V9.75H12.75V8.25Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+        <path android:fillColor="@color/ultra_wide_hint_text_color" android:pathData="M12.75,11.25H11.25V12.75H12.75V11.25Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+        <path android:fillColor="@color/ultra_wide_hint_text_color" android:pathData="M9.75,5.25H8.25V6.75H9.75V5.25Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+        <path android:fillColor="@color/ultra_wide_hint_text_color" android:pathData="M9.75,8.25H8.25V9.75H9.75V8.25Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+        <path android:fillColor="@color/ultra_wide_hint_text_color" android:pathData="M9.75,11.25H8.25V12.75H9.75V11.25Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+    </group>
+</vector>

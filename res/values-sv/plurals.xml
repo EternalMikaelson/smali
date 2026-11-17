@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="camera_shooting_reference_delete_item">
+        <item quantity="one">Radera %1$d objekt</item>
+        <item quantity="other">Radera %1$d objekt</item>
+    </plurals>
+    <plurals name="camera_shooting_reference_select_item">
+        <item quantity="one">%1$d vald</item>
+        <item quantity="other">%1$d valda</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Sida %1$d av %2$d</item>
+        <item quantity="other">Sida %1$d av %2$d</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ny avisering</item>
+        <item quantity="other">%d nya aviseringar</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d ny notis</item>
+        <item quantity="other">%d nya notiser</item>
+    </plurals>
+    <plurals name="setting_display_burst_delay">
+        <item quantity="one">%d sekund</item>
+        <item quantity="other">%d sekunder</item>
+    </plurals>
+    <plurals name="setting_display_burst_repeat">
+        <item quantity="one">%d slag</item>
+        <item quantity="other">%d slag</item>
+    </plurals>
+    <plurals name="sticker_recycle_bin_title_has_selected">
+        <item quantity="one">%1$d dekal vald</item>
+        <item quantity="other">%1$d dekaler valda</item>
+    </plurals>
+    <plurals name="video_message_max_duration_4k_120fps">
+        <item quantity="one">Du kan spela in upp till %d minut 4K-video vid 120 fps</item>
+        <item quantity="other">Du kan spela in upp till %d minuter 4K-video vid 120 fps</item>
+    </plurals>
+    <plurals name="video_message_max_duration_8k_24fps">
+        <item quantity="one">Du kan spela in upp till %d minut 8K-video vid 24 fps</item>
+        <item quantity="other">Du kan spela in upp till %d minuter 8K-video vid 24 fps</item>
+    </plurals>
+    <plurals name="video_message_max_duration_8k_30fps">
+        <item quantity="one">Du kan spela in upp till %d minut 8K-video vid 30 fps</item>
+        <item quantity="other">Du kan spela in upp till %d minuter 8K-video vid 30 fps</item>
+    </plurals>
+</resources>

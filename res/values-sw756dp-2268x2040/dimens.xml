@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="face_beauty_item_margin_top">0.0dp</dimen>
+    <dimen name="face_beauty_reset_item_margin_left_right_screen">10.0dp</dimen>
+    <dimen name="face_beauty_reset_margin_left_full_screen">12.0dp</dimen>
+    <dimen name="values_h">2308.0px</dimen>
+    <dimen name="values_sw">756.0px</dimen>
+    <dimen name="values_w">2136.0px</dimen>
+    <dimen name="xpan_mode_filter_bottom_margin_rack">300.0dp</dimen>
+    <dimen name="xpan_mode_filter_right_margin_rack">37.0dp</dimen>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/debug_ui_display_on" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="@color/color_white_with_80_percent_transparency" android:id="@id/debug_ui_close" android:background="@drawable/aps_info_display_buttom_close" android:layout_width="25.0dp" android:layout_height="25.0dp" android:text="X" android:layout_marginEnd="5.0dp" android:layout_alignParentEnd="true" />
+    <Button android:textColor="@color/color_white_with_80_percent_transparency" android:id="@id/debug_ui_showdetail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="详细/收起" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <Button android:textColor="@color/color_white_with_80_percent_transparency" android:id="@id/debug_ui_clear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:text="清空" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+    <com.oplus.camera.algovisualization.CaptureDeferVisualView android:id="@id/debug_ui_visual_view_simple" android:layout_width="wrap_content" android:layout_height="80.0dp" android:layout_below="@id/debug_ui_close" />
+    <com.oplus.camera.algovisualization.CaptureDeferVisualView android:id="@id/debug_ui_visual_view" android:layout_width="wrap_content" android:layout_height="320.0dp" android:layout_below="@id/debug_ui_close" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_F5F5F5" android:paddingBottom="@dimen/dp_32" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coui.appcompat.toolbar.COUIToolbar android:id="@id/toolbar" android:background="@null" android:layout_width="match_parent" android:layout_height="@dimen/dp_50" />
+    <TextView android:textSize="@dimen/sp_12" android:textColor="#8c000000" android:gravity="center" android:id="@id/tv_desc" android:paddingTop="@dimen/dp_12" android:paddingBottom="@dimen/dp_12" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/app_market_tip_desc" android:paddingStart="@dimen/dp_24" android:paddingEnd="@dimen/dp_24" />
+    <androidx.recyclerview.widget.COUIRecyclerView android:id="@id/recyView" android:background="@drawable/shape_rect_bg_white_conner_16" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_16" android:layout_marginRight="@dimen/dp_16" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/pager_item_card_view" style="@style/GuideGlobalButtonCardView">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/pager_item_im" android:layout_width="match_parent" android:layout_height="match_parent" android:forceDarkAllowed="false" />
+    </androidx.cardview.widget.CardView>
+    <com.coui.appcompat.grid.COUIPercentWidthLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/full_screen_mode_guide_tips_margin_top" android:layout_below="@id/pager_item_card_view" app:gridNumber="@integer/grid_guide_column_preference" app:paddingType="defaultType" app:percentMode="paddingMode">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/common_bottom_guide_title_text_size" android:textColor="@color/color_white_with_full_percent_transparency" android:gravity="center" android:id="@id/guide_tips_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:layout_centerHorizontal="true" android:alpha="0.85" android:textDirection="locale" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/common_bottom_guide_description_text_size" android:textColor="@color/color_white_with_60_percent_transparency" android:gravity="center" android:id="@id/guide_tips_tv_sub" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/full_screen_mode_guide_description_margin_top" android:includeFontPadding="false" android:layout_below="@id/guide_tips_tv" android:layout_centerHorizontal="true" android:alpha="0.85" android:textDirection="locale" />
+    </com.coui.appcompat.grid.COUIPercentWidthLinearLayout>
+</RelativeLayout>

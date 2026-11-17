@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.camera.screen.ScreenRelativeLayout android:id="@id/root_layout" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.grid.COUIPercentWidthLinearLayout android:orientation="vertical" android:id="@id/tip_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" app:gridNumber="@integer/grid_guide_column_preference" app:paddingSize="small" app:paddingType="defaultType" app:percentMode="paddingMode">
+        <ImageView android:layout_gravity="center" android:id="@id/tip_icon" android:layout_width="@dimen/screen_off_image_size" android:layout_height="@dimen/screen_off_image_size" android:layout_marginBottom="@dimen/screen_off_view_margin" android:src="@drawable/ic_screen_off_tip_icon" />
+        <TextView android:textSize="@dimen/screen_off_text_size" android:textColor="@color/screen_off_text_color" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/tip_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/screen_off_tip" android:maxLines="2" android:lineSpacingExtra="-3.0sp" />
+    </com.coui.appcompat.grid.COUIPercentWidthLinearLayout>
+</com.oplus.camera.screen.ScreenRelativeLayout>

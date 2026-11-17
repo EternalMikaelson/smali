@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:orientation="vertical" android:id="@id/itemHelp" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardCornerRadius="@dimen/ai_camera_card_corner_radius" app:cardElevation="0.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@color/ai_camera_item_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/ai_camera_help_height">
+        <com.oplus.camera.widget.GuideTextView android:textSize="@dimen/ai_camera_item_title_size" android:textStyle="bold" android:textColor="@color/color_black_with_full_percent_transparency" android:id="@id/tv_help_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ai_camera_help_text_top_bottom_margin" android:layout_marginBottom="@dimen/ai_camera_help_text_top_bottom_margin" android:text="@string/camera_setting_help_and_feedback" android:textDirection="locale" android:layout_marginStart="@dimen/ai_camera_item_des_start_end_margin" android:layout_marginEnd="@dimen/ai_camera_item_des_start_end_margin" android:layout_toStartOf="@id/iv_help_arrow" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_help_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ai_camera_help_arrow_black" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/ai_camera_item_margin" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

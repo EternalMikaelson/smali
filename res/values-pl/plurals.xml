@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="camera_shooting_reference_delete_item">
+        <item quantity="one">Usuń elementy: %1$d</item>
+        <item quantity="few">Usuń %1$d elementy</item>
+        <item quantity="many">Usuń %1$d elementów</item>
+        <item quantity="other">Usuń elementy: %1$d</item>
+    </plurals>
+    <plurals name="camera_shooting_reference_select_item">
+        <item quantity="one">Wybrane: %1$d</item>
+        <item quantity="few">Wybrane: %1$d</item>
+        <item quantity="many">Wybrane: %1$d</item>
+        <item quantity="other">Wybrane: %1$d</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Strona %1$d z %2$d</item>
+        <item quantity="few">Strona %1$d z %2$d</item>
+        <item quantity="many">Strona %1$d z %2$d</item>
+        <item quantity="other">Strona %1$d z %2$d</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nowe powiadomienie</item>
+        <item quantity="few">%d nowe powiadomienia</item>
+        <item quantity="many">%d nowych powiadomień</item>
+        <item quantity="other">%d nowego powiadomienia</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">Nowe powiadomienia: %d</item>
+        <item quantity="few">%d nowe powiadomienia</item>
+        <item quantity="many">%d nowych powiadomień</item>
+        <item quantity="other">Nowe powiadomienia: %d</item>
+    </plurals>
+    <plurals name="setting_display_burst_delay">
+        <item quantity="one">%d s</item>
+        <item quantity="few">%d s</item>
+        <item quantity="many">%d s</item>
+        <item quantity="other">%d s</item>
+    </plurals>
+    <plurals name="setting_display_burst_repeat">
+        <item quantity="one">%d ujęcie</item>
+        <item quantity="few">%d ujęcia</item>
+        <item quantity="many">%d ujęć</item>
+        <item quantity="other">%d ujęć</item>
+    </plurals>
+    <plurals name="sticker_recycle_bin_title_has_selected">
+        <item quantity="one">Wybrano %1$d naklejkę</item>
+        <item quantity="few">%1$d wybrane naklejki</item>
+        <item quantity="many">%1$d wybranych naklejek</item>
+        <item quantity="other">%1$d wybranych naklejek</item>
+    </plurals>
+    <plurals name="video_message_max_duration_4k_120fps">
+        <item quantity="one">Możesz nagrać do %d min wideo o rozdzielczości 4K i 120 kl./s</item>
+        <item quantity="few">Możesz nagrać do %d min wideo o rozdzielczości 4K i 120 kl./s</item>
+        <item quantity="many">Możesz nagrać do %d min wideo o rozdzielczości 4K i 120 kl./s</item>
+        <item quantity="other">Możesz nagrać do %d min wideo o rozdzielczości 4K i 120 kl./s</item>
+    </plurals>
+    <plurals name="video_message_max_duration_8k_24fps">
+        <item quantity="one">Można nagrywać do %d min. wideo 8K z prędkością 24 kl./s</item>
+        <item quantity="few">Można nagrywać do %d min. wideo 8K z prędkością 24 kl./s</item>
+        <item quantity="many">Można nagrywać do %d min. wideo 8K z prędkością 24 kl./s</item>
+        <item quantity="other">Można nagrywać do %d min. wideo 8K z prędkością 24 kl./s</item>
+    </plurals>
+    <plurals name="video_message_max_duration_8k_30fps">
+        <item quantity="one">Możesz nagrać do %d min wideo o rozdzielczości 8K i 30 kl./s</item>
+        <item quantity="few">Możesz nagrać do %d min wideo o rozdzielczości 8K i 30 kl./s</item>
+        <item quantity="many">Możesz nagrać do %d min wideo o rozdzielczości 8K i 30 kl./s</item>
+        <item quantity="other">Możesz nagrać do %d min wideo o rozdzielczości 8K i 30 kl./s</item>
+    </plurals>
+</resources>

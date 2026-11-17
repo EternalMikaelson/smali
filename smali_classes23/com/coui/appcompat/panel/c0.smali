@@ -1,0 +1,66 @@
+.class public final Lcom/coui/appcompat/panel/c0;
+.super Ljava/lang/Object;
+.source "COUIGuideBehavior.java"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic a:Landroid/view/View;
+
+.field public final synthetic b:I
+
+.field public final synthetic c:Lcom/coui/appcompat/panel/COUIGuideBehavior;
+
+
+# direct methods
+.method public constructor <init>(Lcom/coui/appcompat/panel/COUIGuideBehavior;Landroid/view/View;I)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lcom/coui/appcompat/panel/c0;->c:Lcom/coui/appcompat/panel/COUIGuideBehavior;
+
+    .line 5
+    .line 6
+    iput-object p2, p0, Lcom/coui/appcompat/panel/c0;->a:Landroid/view/View;
+
+    .line 7
+    .line 8
+    iput p3, p0, Lcom/coui/appcompat/panel/c0;->b:I
+
+    .line 9
+    .line 10
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/coui/appcompat/panel/c0;->a:Landroid/view/View;
+
+    .line 2
+    .line 3
+    iget v1, p0, Lcom/coui/appcompat/panel/c0;->b:I
+
+    .line 4
+    .line 5
+    iget-object p0, p0, Lcom/coui/appcompat/panel/c0;->c:Lcom/coui/appcompat/panel/COUIGuideBehavior;
+
+    .line 6
+    .line 7
+    invoke-virtual {p0, v1, v0}, Lcom/coui/appcompat/panel/COUIGuideBehavior;->c(ILandroid/view/View;)V
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+.end method

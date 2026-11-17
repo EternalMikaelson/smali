@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/master_effect_item_width_v2" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/jellyLayout" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/master_effect_item_jelly_layout_height">
+        <View android:id="@id/selectView" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.0" />
+        <ImageView android:layout_gravity="center" android:id="@id/iconImageView" android:layout_width="@dimen/master_effect_reset_item_icon_size" android:layout_height="@dimen/master_effect_reset_item_icon_size" />
+    </FrameLayout>
+    <com.oplus.camera.inverse.InverseBeautifyTextView android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="bottom" android:id="@id/nameTextView" android:layout_width="match_parent" android:layout_height="@dimen/face_beauty_custom_menu_text_height" android:layout_marginTop="@dimen/face_beauty_custom_menu_text_margin_top" android:maxLines="1" android:alpha="0.0" style="@style/MasterEffectTextStyle" />
+</LinearLayout>

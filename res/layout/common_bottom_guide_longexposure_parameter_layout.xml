@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/long_exposure_parameter_layout" android:background="@color/bottomsheet_dialog_panel_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coui.appcompat.toolbar.COUIToolbar android:id="@id/toolbar" android:background="@null" style="@style/Widget.COUI.Toolbar.Panel" />
+    <View android:id="@id/vDivider" android:background="@color/professional_mode_guide_divider_color" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="@dimen/professional_mode_guide_divider_height" />
+    <androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/long_exposure_options_rv" android:paddingTop="@dimen/long_exposure_guide_content_padding_top" android:paddingBottom="@dimen/long_exposure_guide_content_padding_bottom" android:visibility="visible" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:overScrollMode="always" android:paddingStart="@dimen/professional_mode_guide_padding_horizontal" android:paddingEnd="@dimen/professional_mode_guide_padding_horizontal" android:nestedScrollingEnabled="true" />
+</androidx.appcompat.widget.LinearLayoutCompat>

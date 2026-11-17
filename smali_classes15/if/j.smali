@@ -1,0 +1,37 @@
+.class public final Lif/j;
+.super Lif/h;
+.source "SpeedWrapper.java"
+
+
+# static fields
+.field public static final e:Ljava/text/DecimalFormat;
+
+
+# instance fields
+.field public d:Ljava/lang/String;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    new-instance v0, Ljava/text/DecimalFormat;
+
+    .line 2
+    .line 3
+    const-string v1, "###################.###########"
+
+    .line 4
+    .line 5
+    invoke-direct {v0, v1}, Ljava/text/DecimalFormat;-><init>(Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    sput-object v0, Lif/j;->e:Ljava/text/DecimalFormat;
+
+    .line 9
+    .line 10
+    return-void
+.end method

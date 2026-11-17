@@ -1,0 +1,122 @@
+.class public final Lk2/a$a;
+.super Ljava/lang/Object;
+.source "COUIListView.java"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lk2/a;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Lk2/a;
+
+
+# direct methods
+.method public constructor <init>(Lk2/a;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lk2/a$a;->a:Lk2/a;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 2
+
+    .line 1
+    iget-object p0, p0, Lk2/a$a;->a:Lk2/a;
+
+    .line 2
+    .line 3
+    invoke-static {p0}, Lk2/a;->access$000(Lk2/a;)Z
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    if-eqz v0, :cond_0
+
+    .line 8
+    .line 9
+    invoke-virtual {p0}, Landroid/widget/AdapterView;->getFirstVisiblePosition()I
+
+    .line 10
+    .line 11
+    .line 12
+    move-result v0
+
+    .line 13
+    add-int/lit8 v0, v0, -0x1
+
+    .line 14
+    .line 15
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
+
+    .line 16
+    .line 17
+    .line 18
+    move-result v1
+
+    .line 19
+    neg-int v1, v1
+
+    .line 20
+    invoke-virtual {p0, v0, v1}, Landroid/widget/AbsListView;->setSelectionFromTop(II)V
+
+    .line 21
+    .line 22
+    .line 23
+    goto :goto_0
+
+    .line 24
+    :cond_0
+    invoke-virtual {p0}, Landroid/widget/AdapterView;->getLastVisiblePosition()I
+
+    .line 25
+    .line 26
+    .line 27
+    move-result v0
+
+    .line 28
+    add-int/lit8 v0, v0, 0x1
+
+    .line 29
+    .line 30
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingBottom()I
+
+    .line 31
+    .line 32
+    .line 33
+    move-result v1
+
+    .line 34
+    invoke-static {p0, v0, v1}, Lk2/a;->access$100(Lk2/a;II)V
+
+    .line 35
+    .line 36
+    .line 37
+    :goto_0
+    return-void
+.end method

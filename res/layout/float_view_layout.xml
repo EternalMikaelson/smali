@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/float_item_root" android:layout_width="@dimen/more_item_width" android:layout_height="@dimen/more_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/float_item_layout" android:layout_width="@dimen/more_item_width" android:layout_height="@dimen/more_item_height">
+        <ImageView android:id="@id/float_item_icon" android:layout_width="@dimen/more_item_icon_w_h" android:layout_height="@dimen/more_item_icon_w_h" android:layout_centerHorizontal="true" />
+        <com.oplus.camera.common.view.FloatMarqueeView android:textColor="@android:color/white" android:gravity="center" android:id="@id/float_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/more_item_width" android:singleLine="true" android:layout_centerHorizontal="true" android:textDirection="locale" android:textAlignment="center" />
+        <TextView android:textSize="@dimen/head_line_normal_size" android:textColor="@color/color_black_with_0_percent_transparency" android:gravity="center" android:id="@id/float_item_headline_title" android:layout_width="wrap_content" android:layout_height="@dimen/headline_recycle_view_item_height" android:maxLines="1" android:includeFontPadding="false" android:textDirection="locale" android:textAlignment="center" android:layoutDirection="locale" android:paddingStart="@dimen/headline_recycle_view_text_padding_left_right" android:paddingEnd="@dimen/headline_recycle_view_text_padding_left_right" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/float_item_text_drawable" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:layout_centerHorizontal="true" android:paddingStart="@dimen/headline_recycle_view_text_padding_left_right" android:paddingEnd="@dimen/headline_recycle_view_text_padding_left_right" />
+    </RelativeLayout>
+    <ImageView android:id="@id/mode_title_background" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerHorizontal="true" />
+</RelativeLayout>

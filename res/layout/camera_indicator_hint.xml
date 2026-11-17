@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.camera.hint.view.IndicatorHintPanelView android:id="@id/camera_indicator_hint_panel" android:visibility="invisible" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxWidth="@dimen/top_hint_indicator_max_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.camera.hint.view.IndicatorHintView android:layout_gravity="center" android:id="@id/camera_indicator_hint" android:background="@drawable/hint_view_indicator_background" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxWidth="@dimen/top_hint_indicator_max_width" />
+</com.oplus.camera.hint.view.IndicatorHintPanelView>

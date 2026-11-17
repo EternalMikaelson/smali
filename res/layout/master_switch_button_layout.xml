@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.camera.feature.captureparam.ui.MasterSwitchButton android:layout_gravity="center" android:id="@id/camera_menu_left_switch_button" android:visibility="gone" android:layout_width="@dimen/master_mode_switch_button_width" android:layout_height="@dimen/master_mode_switch_button_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

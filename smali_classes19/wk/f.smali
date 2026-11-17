@@ -1,0 +1,56 @@
+.class public final Lwk/f;
+.super Landroid/animation/AnimatorListenerAdapter;
+.source "SpruceUIContainer.java"
+
+
+# instance fields
+.field public final synthetic a:Lwk/g;
+
+
+# direct methods
+.method public constructor <init>(Lwk/g;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lwk/f;->a:Lwk/g;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onAnimationEnd(Landroid/animation/Animator;)V
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lwk/f;->a:Lwk/g;
+
+    .line 2
+    .line 3
+    iget-object p0, p0, Lwk/g;->n:Lwk/a;
+
+    .line 4
+    .line 5
+    if-eqz p0, :cond_0
+
+    .line 6
+    .line 7
+    const/16 p1, 0x8
+
+    .line 8
+    .line 9
+    invoke-virtual {p0, p1}, Landroid/view/View;->setVisibility(I)V
+
+    .line 10
+    .line 11
+    .line 12
+    :cond_0
+    return-void
+.end method

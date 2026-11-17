@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.statement.COUIMaxHeightScrollView android:scrollbars="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:requiresFadingEdge="vertical" app:scrollViewMaxHeight="360.0dp">
+        <androidx.appcompat.widget.AppCompatTextView android:gravity="left" android:layout_gravity="left" android:id="@id/bottom_description" android:textDirection="locale" style="@style/GuideMessageStyle" />
+    </com.coui.appcompat.statement.COUIMaxHeightScrollView>
+    <com.oplus.camera.widget.AnimationButton android:textColor="@color/color_white_with_full_percent_transparency" android:layout_gravity="center" android:id="@id/button_agree" android:layout_width="match_parent" android:layout_height="@dimen/mode_edit_button_height" android:layout_marginLeft="@dimen/common_guide_big_margin" android:layout_marginTop="@dimen/common_guide_small_margin" android:layout_marginRight="@dimen/common_guide_big_margin" android:layout_marginBottom="4.0dp" app:drawableColor="?couiColorPrimary" style="@style/BottomOKButton.Panel" />
+    <com.oplus.camera.widget.AnimationButton android:layout_gravity="center" android:id="@id/button_disagree" android:layout_width="match_parent" android:layout_height="@dimen/mode_edit_button_height" android:layout_marginBottom="8.0dp" style="@style/BottomOKButton.Panel" />
+</LinearLayout>
