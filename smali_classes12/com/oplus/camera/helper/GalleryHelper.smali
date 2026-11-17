@@ -2306,146 +2306,21 @@
 .end method
 
 .method public final m(Landroid/content/Intent;ZLandroid/net/Uri;)V
-    .locals 1
-
-    .line 1
-    new-instance v0, Lz8/d;
-
-    .line 2
-    .line 3
-    invoke-direct {v0, p2, p3}, Lz8/d;-><init>(ZLandroid/net/Uri;)V
-
-    .line 4
-    .line 5
-    .line 6
-    const-string p2, "thumbnail_click"
-
-    .line 7
-    .line 8
-    invoke-static {p2, v0}, Lcom/oplus/camera/statistics/ReportThread;->postEvent(Ljava/lang/String;Ljava/lang/Runnable;)V
-
-    .line 9
-    .line 10
-    .line 11
-    new-instance p2, Ljava/lang/ref/WeakReference;
-
-    .line 12
-    .line 13
-    invoke-direct {p2, p0}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
-
-    .line 14
-    .line 15
-    .line 16
-    sput-object p2, Lcom/oplus/camera/helper/GalleryHelper;->B:Ljava/lang/ref/WeakReference;
-
-    .line 17
-    .line 18
-    iget-object p2, p0, Lcom/oplus/camera/helper/GalleryHelper;->a:Landroid/app/Activity;
-
-    .line 19
-    .line 20
-    invoke-virtual {p2}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
-
-    .line 21
-    .line 22
-    .line 23
-    move-result-object p2
-
-    .line 24
-    invoke-virtual {p1, p2}, Landroid/content/Intent;->resolveActivity(Landroid/content/pm/PackageManager;)Landroid/content/ComponentName;
-
-    .line 25
-    .line 26
-    .line 27
-    move-result-object p2
-
-    .line 28
-    if-eqz p2, :cond_0
-
-    .line 29
-    .line 30
-    invoke-static {}, Landroid/app/ActivityOptions;->makeBasic()Landroid/app/ActivityOptions;
-
-    .line 31
-    .line 32
-    .line 33
-    move-result-object p2
-
-    .line 34
-    iget-object v0, p0, Lcom/oplus/camera/helper/GalleryHelper;->a:Landroid/app/Activity;
-
-    .line 35
-    .line 36
-    invoke-virtual {v0}, Landroid/content/Context;->getDisplay()Landroid/view/Display;
-
-    .line 37
-    .line 38
-    .line 39
-    move-result-object v0
-
-    .line 40
-    invoke-virtual {v0}, Landroid/view/Display;->getDisplayId()I
-
-    .line 41
-    .line 42
-    .line 43
-    move-result v0
-
-    .line 44
-    invoke-virtual {p2, v0}, Landroid/app/ActivityOptions;->setLaunchDisplayId(I)Landroid/app/ActivityOptions;
-
-    .line 45
-    .line 46
-    .line 47
-    invoke-static {p1, p3}, Lcom/oplus/camera/helper/GalleryHelper;->a(Landroid/content/Intent;Landroid/net/Uri;)V
-
-    .line 48
-    .line 49
-    .line 50
-    iget-object p0, p0, Lcom/oplus/camera/helper/GalleryHelper;->a:Landroid/app/Activity;
-
-    .line 51
-    .line 52
-    invoke-virtual {p2}, Landroid/app/ActivityOptions;->toBundle()Landroid/os/Bundle;
-
-    .line 53
-    .line 54
-    .line 55
-    move-result-object p2
-
-    .line 56
-    invoke-virtual {p0, p1, p2}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;Landroid/os/Bundle;)V
-
-    .line 57
-    .line 58
-    .line 59
-    goto :goto_0
-
-    .line 60
-    :cond_0
-    new-instance p0, Lka/m0;
-
-    .line 61
-    .line 62
-    const/16 p1, 0x19
-
-    .line 63
-    .line 64
-    invoke-direct {p0, p1}, Lka/m0;-><init>(I)V
-
-    .line 65
-    .line 66
-    .line 67
-    const-string p1, "GalleryHelper"
-
-    .line 68
-    .line 69
-    invoke-static {p1, p0}, Lu6/a;->z(Ljava/lang/String;Ljava/util/function/Supplier;)V
-
-    .line 70
-    .line 71
-    .line 72
-    :goto_0
+    .locals 2
+    new-instance v0, Landroid/content/Intent;
+    const-string v1, "android.intent.action.VIEW"
+    invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    if-eqz p2, :cond_image
+    const-string v1, "video/*"
+    goto :goto_setdata
+    :cond_image
+    const-string v1, "image/*"
+    :goto_setdata
+    invoke-virtual {v0, p3, v1}, Landroid/content/Intent;->setDataAndType(Landroid/net/Uri;Ljava/lang/String;)Landroid/content/Intent;
+    const/4 v1, 0x1
+    invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+    iget-object v1, p0, Lcom/oplus/camera/helper/GalleryHelper;->a:Landroid/app/Activity;
+    invoke-virtual {v1, v0}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
     return-void
 .end method
 
