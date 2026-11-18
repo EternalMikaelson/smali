@@ -44,19 +44,12 @@
 
     .line 13
     .line 14
-    const-string v1, "linearmotor"
+    invoke-static {p0}, Lcom/oplus/os/LinearmotorVibrator;->create(Landroid/content/Context;)Lcom/oplus/os/LinearmotorVibrator;
 
     .line 15
     .line 16
-    invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
-
     .line 17
-    .line 18
-    .line 19
     move-result-object p0
-
-    .line 20
-    check-cast p0, Lcom/oplus/os/LinearmotorVibrator;
 
     .line 21
     .line 22

@@ -78,19 +78,12 @@
 
     .line 15
     :cond_0
-    const-string v1, "linearmotor"
+    invoke-static {p0}, Lcom/oplus/os/LinearmotorVibrator;->create(Landroid/content/Context;)Lcom/oplus/os/LinearmotorVibrator;
 
     .line 16
     .line 17
-    invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
-
     .line 18
-    .line 19
-    .line 20
     move-result-object p0
-
-    .line 21
-    check-cast p0, Lcom/oplus/os/LinearmotorVibrator;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
